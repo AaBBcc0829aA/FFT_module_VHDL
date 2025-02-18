@@ -1,0 +1,1232 @@
+Simulator report for FFT_module
+Tue Jan 28 10:58:19 2025
+Quartus II Version 9.0 Build 132 02/25/2009 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Simulator Summary
+  3. Simulator Settings
+  4. Simulation Waveforms
+  5. |FFT_module|altsyncram:mR|altsyncram_ihi3:auto_generated|ALTSYNCRAM
+  6. |FFT_module|altsyncram:mW|altsyncram_hpd3:auto_generated|ALTSYNCRAM
+  7. |FFT_module|altsyncram:mL|altsyncram_ihi3:auto_generated|ALTSYNCRAM
+  8. Coverage Summary
+  9. Complete 1/0-Value Coverage
+ 10. Missing 1-Value Coverage
+ 11. Missing 0-Value Coverage
+ 12. Simulator INI Usage
+ 13. Simulator Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2009 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++--------------------------------------------+
+; Simulator Summary                          ;
++-----------------------------+--------------+
+; Type                        ; Value        ;
++-----------------------------+--------------+
+; Simulation Start Time       ; 0 ps         ;
+; Simulation End Time         ; 4.0 us       ;
+; Simulation Netlist Size     ; 805 nodes    ;
+; Simulation Coverage         ;      97.89 % ;
+; Total Number of Transitions ; 47722        ;
+; Simulation Breakpoints      ; 0            ;
+; Family                      ; Cyclone III  ;
+; Device                      ; EP3C25E144I7 ;
++-----------------------------+--------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------+
+; Simulator Settings                                                                                                      ;
++--------------------------------------------------------------------------------------------+------------+---------------+
+; Option                                                                                     ; Setting    ; Default Value ;
++--------------------------------------------------------------------------------------------+------------+---------------+
+; Simulation mode                                                                            ; Timing     ; Timing        ;
+; Start time                                                                                 ; 0 ns       ; 0 ns          ;
+; Simulation results format                                                                  ; CVWF       ;               ;
+; Add pins automatically to simulation output waveforms                                      ; On         ; On            ;
+; Check outputs                                                                              ; Off        ; Off           ;
+; Report simulation coverage                                                                 ; On         ; On            ;
+; Display complete 1/0 value coverage report                                                 ; On         ; On            ;
+; Display missing 1-value coverage report                                                    ; On         ; On            ;
+; Display missing 0-value coverage report                                                    ; On         ; On            ;
+; Detect setup and hold time violations                                                      ; Off        ; Off           ;
+; Detect glitches                                                                            ; Off        ; Off           ;
+; Disable timing delays in Timing Simulation                                                 ; Off        ; Off           ;
+; Generate Signal Activity File                                                              ; Off        ; Off           ;
+; Generate VCD File for PowerPlay Power Analyzer                                             ; Off        ; Off           ;
+; Group bus channels in simulation results                                                   ; Off        ; Off           ;
+; Preserve fewer signal transitions to reduce memory requirements                            ; On         ; On            ;
+; Trigger vector comparison with the specified mode                                          ; INPUT_EDGE ; INPUT_EDGE    ;
+; Disable setup and hold time violations detection in input registers of bi-directional pins ; Off        ; Off           ;
+; Overwrite Waveform Inputs With Simulation Outputs                                          ; Off        ;               ;
+; Perform Glitch Filtering in Timing Simulation                                              ; Auto       ; Auto          ;
+; Interconnect Delay Model Type                                                              ; Transport  ; Transport     ;
+; Cell Delay Model Type                                                                      ; Transport  ; Transport     ;
++--------------------------------------------------------------------------------------------+------------+---------------+
+
+
++----------------------+
+; Simulation Waveforms ;
++----------------------+
+Waveform report data cannot be output to ASCII.
+Please use Quartus II to view the waveform report data.
+
+
++---------------------------------------------------------------------+
+; |FFT_module|altsyncram:mR|altsyncram_ihi3:auto_generated|ALTSYNCRAM ;
++---------------------------------------------------------------------+
+Memory report data cannot be output to ASCII.
+Please use Quartus II to view the memory report data.
+
+
++---------------------------------------------------------------------+
+; |FFT_module|altsyncram:mW|altsyncram_hpd3:auto_generated|ALTSYNCRAM ;
++---------------------------------------------------------------------+
+Memory report data cannot be output to ASCII.
+Please use Quartus II to view the memory report data.
+
+
++---------------------------------------------------------------------+
+; |FFT_module|altsyncram:mL|altsyncram_ihi3:auto_generated|ALTSYNCRAM ;
++---------------------------------------------------------------------+
+Memory report data cannot be output to ASCII.
+Please use Quartus II to view the memory report data.
+
+
++--------------------------------------------------------------------+
+; Coverage Summary                                                   ;
++-----------------------------------------------------+--------------+
+; Type                                                ; Value        ;
++-----------------------------------------------------+--------------+
+; Total coverage as a percentage                      ;      97.89 % ;
+; Total nodes checked                                 ; 805          ;
+; Total output ports checked                          ; 1044         ;
+; Total output ports with complete 1/0-value coverage ; 1022         ;
+; Total output ports with no 1/0-value coverage       ; 1            ;
+; Total output ports with no 1-value coverage         ; 5            ;
+; Total output ports with no 0-value coverage         ; 18           ;
++-----------------------------------------------------+--------------+
+
+
+The following table displays output ports that toggle between 1 and 0 during simulation.
++----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Complete 1/0-Value Coverage                                                                                                                                    ;
++-----------------------------------------------------------------------+---------------------------------------------------------------------+------------------+
+; Node Name                                                             ; Output Port Name                                                    ; Output Port Type ;
++-----------------------------------------------------------------------+---------------------------------------------------------------------+------------------+
+; |FFT_module|altsyncram:mR|altsyncram_ihi3:auto_generated|ram_block1a0 ; |FFT_module|altsyncram:mR|altsyncram_ihi3:auto_generated|q_a[0]     ; portadataout0    ;
+; |FFT_module|altsyncram:mR|altsyncram_ihi3:auto_generated|ram_block1a0 ; |FFT_module|altsyncram:mR|altsyncram_ihi3:auto_generated|q_a[1]     ; portadataout1    ;
+; |FFT_module|altsyncram:mR|altsyncram_ihi3:auto_generated|ram_block1a0 ; |FFT_module|altsyncram:mR|altsyncram_ihi3:auto_generated|q_a[2]     ; portadataout2    ;
+; |FFT_module|altsyncram:mR|altsyncram_ihi3:auto_generated|ram_block1a0 ; |FFT_module|altsyncram:mR|altsyncram_ihi3:auto_generated|q_a[3]     ; portadataout3    ;
+; |FFT_module|altsyncram:mR|altsyncram_ihi3:auto_generated|ram_block1a0 ; |FFT_module|altsyncram:mR|altsyncram_ihi3:auto_generated|q_a[4]     ; portadataout4    ;
+; |FFT_module|altsyncram:mR|altsyncram_ihi3:auto_generated|ram_block1a0 ; |FFT_module|altsyncram:mR|altsyncram_ihi3:auto_generated|q_a[5]     ; portadataout5    ;
+; |FFT_module|altsyncram:mR|altsyncram_ihi3:auto_generated|ram_block1a0 ; |FFT_module|altsyncram:mR|altsyncram_ihi3:auto_generated|q_a[6]     ; portadataout6    ;
+; |FFT_module|altsyncram:mR|altsyncram_ihi3:auto_generated|ram_block1a0 ; |FFT_module|altsyncram:mR|altsyncram_ihi3:auto_generated|q_a[7]     ; portadataout7    ;
+; |FFT_module|altsyncram:mR|altsyncram_ihi3:auto_generated|ram_block1a0 ; |FFT_module|altsyncram:mR|altsyncram_ihi3:auto_generated|q_a[8]     ; portadataout8    ;
+; |FFT_module|altsyncram:mR|altsyncram_ihi3:auto_generated|ram_block1a0 ; |FFT_module|altsyncram:mR|altsyncram_ihi3:auto_generated|q_a[9]     ; portadataout9    ;
+; |FFT_module|altsyncram:mR|altsyncram_ihi3:auto_generated|ram_block1a0 ; |FFT_module|altsyncram:mR|altsyncram_ihi3:auto_generated|q_a[10]    ; portadataout10   ;
+; |FFT_module|altsyncram:mR|altsyncram_ihi3:auto_generated|ram_block1a0 ; |FFT_module|altsyncram:mR|altsyncram_ihi3:auto_generated|q_a[11]    ; portadataout11   ;
+; |FFT_module|altsyncram:mR|altsyncram_ihi3:auto_generated|ram_block1a0 ; |FFT_module|altsyncram:mR|altsyncram_ihi3:auto_generated|q_a[12]    ; portadataout12   ;
+; |FFT_module|altsyncram:mR|altsyncram_ihi3:auto_generated|ram_block1a0 ; |FFT_module|altsyncram:mR|altsyncram_ihi3:auto_generated|q_a[13]    ; portadataout13   ;
+; |FFT_module|altsyncram:mR|altsyncram_ihi3:auto_generated|ram_block1a0 ; |FFT_module|altsyncram:mR|altsyncram_ihi3:auto_generated|q_a[14]    ; portadataout14   ;
+; |FFT_module|altsyncram:mR|altsyncram_ihi3:auto_generated|ram_block1a0 ; |FFT_module|altsyncram:mR|altsyncram_ihi3:auto_generated|q_a[15]    ; portadataout15   ;
+; |FFT_module|altsyncram:mR|altsyncram_ihi3:auto_generated|ram_block1a0 ; |FFT_module|altsyncram:mR|altsyncram_ihi3:auto_generated|q_a[16]    ; portadataout16   ;
+; |FFT_module|altsyncram:mR|altsyncram_ihi3:auto_generated|ram_block1a0 ; |FFT_module|altsyncram:mR|altsyncram_ihi3:auto_generated|q_a[17]    ; portadataout17   ;
+; |FFT_module|altsyncram:mR|altsyncram_ihi3:auto_generated|ram_block1a0 ; |FFT_module|altsyncram:mR|altsyncram_ihi3:auto_generated|q_b[0]     ; portbdataout0    ;
+; |FFT_module|altsyncram:mR|altsyncram_ihi3:auto_generated|ram_block1a0 ; |FFT_module|altsyncram:mR|altsyncram_ihi3:auto_generated|q_b[1]     ; portbdataout1    ;
+; |FFT_module|altsyncram:mR|altsyncram_ihi3:auto_generated|ram_block1a0 ; |FFT_module|altsyncram:mR|altsyncram_ihi3:auto_generated|q_b[2]     ; portbdataout2    ;
+; |FFT_module|altsyncram:mR|altsyncram_ihi3:auto_generated|ram_block1a0 ; |FFT_module|altsyncram:mR|altsyncram_ihi3:auto_generated|q_b[3]     ; portbdataout3    ;
+; |FFT_module|altsyncram:mR|altsyncram_ihi3:auto_generated|ram_block1a0 ; |FFT_module|altsyncram:mR|altsyncram_ihi3:auto_generated|q_b[4]     ; portbdataout4    ;
+; |FFT_module|altsyncram:mR|altsyncram_ihi3:auto_generated|ram_block1a0 ; |FFT_module|altsyncram:mR|altsyncram_ihi3:auto_generated|q_b[5]     ; portbdataout5    ;
+; |FFT_module|altsyncram:mR|altsyncram_ihi3:auto_generated|ram_block1a0 ; |FFT_module|altsyncram:mR|altsyncram_ihi3:auto_generated|q_b[6]     ; portbdataout6    ;
+; |FFT_module|altsyncram:mR|altsyncram_ihi3:auto_generated|ram_block1a0 ; |FFT_module|altsyncram:mR|altsyncram_ihi3:auto_generated|q_b[7]     ; portbdataout7    ;
+; |FFT_module|altsyncram:mR|altsyncram_ihi3:auto_generated|ram_block1a0 ; |FFT_module|altsyncram:mR|altsyncram_ihi3:auto_generated|q_b[8]     ; portbdataout8    ;
+; |FFT_module|altsyncram:mR|altsyncram_ihi3:auto_generated|ram_block1a0 ; |FFT_module|altsyncram:mR|altsyncram_ihi3:auto_generated|q_b[9]     ; portbdataout9    ;
+; |FFT_module|altsyncram:mR|altsyncram_ihi3:auto_generated|ram_block1a0 ; |FFT_module|altsyncram:mR|altsyncram_ihi3:auto_generated|q_b[10]    ; portbdataout10   ;
+; |FFT_module|altsyncram:mR|altsyncram_ihi3:auto_generated|ram_block1a0 ; |FFT_module|altsyncram:mR|altsyncram_ihi3:auto_generated|q_b[11]    ; portbdataout11   ;
+; |FFT_module|altsyncram:mR|altsyncram_ihi3:auto_generated|ram_block1a0 ; |FFT_module|altsyncram:mR|altsyncram_ihi3:auto_generated|q_b[12]    ; portbdataout12   ;
+; |FFT_module|altsyncram:mR|altsyncram_ihi3:auto_generated|ram_block1a0 ; |FFT_module|altsyncram:mR|altsyncram_ihi3:auto_generated|q_b[13]    ; portbdataout13   ;
+; |FFT_module|altsyncram:mR|altsyncram_ihi3:auto_generated|ram_block1a0 ; |FFT_module|altsyncram:mR|altsyncram_ihi3:auto_generated|q_b[14]    ; portbdataout14   ;
+; |FFT_module|altsyncram:mR|altsyncram_ihi3:auto_generated|ram_block1a0 ; |FFT_module|altsyncram:mR|altsyncram_ihi3:auto_generated|q_b[15]    ; portbdataout15   ;
+; |FFT_module|altsyncram:mR|altsyncram_ihi3:auto_generated|ram_block1a0 ; |FFT_module|altsyncram:mR|altsyncram_ihi3:auto_generated|q_b[16]    ; portbdataout16   ;
+; |FFT_module|altsyncram:mR|altsyncram_ihi3:auto_generated|ram_block1a0 ; |FFT_module|altsyncram:mR|altsyncram_ihi3:auto_generated|q_b[17]    ; portbdataout17   ;
+; |FFT_module|RAw                                                       ; |FFT_module|RAw                                                     ; q                ;
+; |FFT_module|cnt[4]                                                    ; |FFT_module|cnt[4]                                                  ; q                ;
+; |FFT_module|cnt[0]                                                    ; |FFT_module|cnt[0]                                                  ; q                ;
+; |FFT_module|cnt[2]                                                    ; |FFT_module|cnt[2]                                                  ; q                ;
+; |FFT_module|cnt[3]                                                    ; |FFT_module|cnt[3]                                                  ; q                ;
+; |FFT_module|cnt[1]                                                    ; |FFT_module|cnt[1]                                                  ; q                ;
+; |FFT_module|Rw                                                        ; |FFT_module|Rw                                                      ; q                ;
+; |FFT_module|cnt[0]~15                                                 ; |FFT_module|cnt[0]~15                                               ; combout          ;
+; |FFT_module|cnt[0]~15                                                 ; |FFT_module|cnt[0]~16                                               ; cout             ;
+; |FFT_module|cnt[1]~17                                                 ; |FFT_module|cnt[1]~17                                               ; combout          ;
+; |FFT_module|cnt[1]~17                                                 ; |FFT_module|cnt[1]~18                                               ; cout             ;
+; |FFT_module|cnt[2]~19                                                 ; |FFT_module|cnt[2]~19                                               ; combout          ;
+; |FFT_module|cnt[2]~19                                                 ; |FFT_module|cnt[2]~20                                               ; cout             ;
+; |FFT_module|cnt[3]~21                                                 ; |FFT_module|cnt[3]~21                                               ; combout          ;
+; |FFT_module|cnt[3]~21                                                 ; |FFT_module|cnt[3]~22                                               ; cout             ;
+; |FFT_module|cnt[4]~23                                                 ; |FFT_module|cnt[4]~23                                               ; combout          ;
+; |FFT_module|yb[0]                                                     ; |FFT_module|yb[0]                                                   ; q                ;
+; |FFT_module|yb[1]                                                     ; |FFT_module|yb[1]                                                   ; q                ;
+; |FFT_module|yb[2]                                                     ; |FFT_module|yb[2]                                                   ; q                ;
+; |FFT_module|yb[3]                                                     ; |FFT_module|yb[3]                                                   ; q                ;
+; |FFT_module|yb[4]                                                     ; |FFT_module|yb[4]                                                   ; q                ;
+; |FFT_module|yb[5]                                                     ; |FFT_module|yb[5]                                                   ; q                ;
+; |FFT_module|yb[6]                                                     ; |FFT_module|yb[6]                                                   ; q                ;
+; |FFT_module|yb[7]                                                     ; |FFT_module|yb[7]                                                   ; q                ;
+; |FFT_module|yb[8]                                                     ; |FFT_module|yb[8]                                                   ; q                ;
+; |FFT_module|yb[9]                                                     ; |FFT_module|yb[9]                                                   ; q                ;
+; |FFT_module|yb[10]                                                    ; |FFT_module|yb[10]                                                  ; q                ;
+; |FFT_module|yb[11]                                                    ; |FFT_module|yb[11]                                                  ; q                ;
+; |FFT_module|yb[12]                                                    ; |FFT_module|yb[12]                                                  ; q                ;
+; |FFT_module|yb[13]                                                    ; |FFT_module|yb[13]                                                  ; q                ;
+; |FFT_module|yb[14]                                                    ; |FFT_module|yb[14]                                                  ; q                ;
+; |FFT_module|yb[15]                                                    ; |FFT_module|yb[15]                                                  ; q                ;
+; |FFT_module|yb[16]                                                    ; |FFT_module|yb[16]                                                  ; q                ;
+; |FFT_module|yb[17]                                                    ; |FFT_module|yb[17]                                                  ; q                ;
+; |FFT_module|sum[1]                                                    ; |FFT_module|sum[1]                                                  ; q                ;
+; |FFT_module|lpm_mult:r4|mult_flo:auto_generated|mac_out2              ; |FFT_module|lpm_mult:r4|mult_flo:auto_generated|result[8]           ; dataout8         ;
+; |FFT_module|lpm_mult:r4|mult_flo:auto_generated|mac_out2              ; |FFT_module|lpm_mult:r4|mult_flo:auto_generated|result[9]           ; dataout9         ;
+; |FFT_module|lpm_mult:r4|mult_flo:auto_generated|mac_out2              ; |FFT_module|lpm_mult:r4|mult_flo:auto_generated|result[10]          ; dataout10        ;
+; |FFT_module|lpm_mult:r4|mult_flo:auto_generated|mac_out2              ; |FFT_module|lpm_mult:r4|mult_flo:auto_generated|result[11]          ; dataout11        ;
+; |FFT_module|lpm_mult:r4|mult_flo:auto_generated|mac_out2              ; |FFT_module|lpm_mult:r4|mult_flo:auto_generated|result[12]          ; dataout12        ;
+; |FFT_module|lpm_mult:r4|mult_flo:auto_generated|mac_out2              ; |FFT_module|lpm_mult:r4|mult_flo:auto_generated|result[13]          ; dataout13        ;
+; |FFT_module|lpm_mult:r4|mult_flo:auto_generated|mac_out2              ; |FFT_module|lpm_mult:r4|mult_flo:auto_generated|result[14]          ; dataout14        ;
+; |FFT_module|lpm_mult:r4|mult_flo:auto_generated|mac_out2              ; |FFT_module|lpm_mult:r4|mult_flo:auto_generated|result[15]          ; dataout15        ;
+; |FFT_module|lpm_mult:r4|mult_flo:auto_generated|mac_out2              ; |FFT_module|lpm_mult:r4|mult_flo:auto_generated|result[16]          ; dataout16        ;
+; |FFT_module|lpm_mult:r3|mult_flo:auto_generated|mac_out2              ; |FFT_module|lpm_mult:r3|mult_flo:auto_generated|result[8]           ; dataout8         ;
+; |FFT_module|lpm_mult:r3|mult_flo:auto_generated|mac_out2              ; |FFT_module|lpm_mult:r3|mult_flo:auto_generated|result[9]           ; dataout9         ;
+; |FFT_module|lpm_mult:r3|mult_flo:auto_generated|mac_out2              ; |FFT_module|lpm_mult:r3|mult_flo:auto_generated|result[10]          ; dataout10        ;
+; |FFT_module|lpm_mult:r3|mult_flo:auto_generated|mac_out2              ; |FFT_module|lpm_mult:r3|mult_flo:auto_generated|result[11]          ; dataout11        ;
+; |FFT_module|lpm_mult:r3|mult_flo:auto_generated|mac_out2              ; |FFT_module|lpm_mult:r3|mult_flo:auto_generated|result[12]          ; dataout12        ;
+; |FFT_module|lpm_mult:r3|mult_flo:auto_generated|mac_out2              ; |FFT_module|lpm_mult:r3|mult_flo:auto_generated|result[13]          ; dataout13        ;
+; |FFT_module|lpm_mult:r3|mult_flo:auto_generated|mac_out2              ; |FFT_module|lpm_mult:r3|mult_flo:auto_generated|result[14]          ; dataout14        ;
+; |FFT_module|lpm_mult:r3|mult_flo:auto_generated|mac_out2              ; |FFT_module|lpm_mult:r3|mult_flo:auto_generated|result[15]          ; dataout15        ;
+; |FFT_module|lpm_mult:r3|mult_flo:auto_generated|mac_out2              ; |FFT_module|lpm_mult:r3|mult_flo:auto_generated|result[16]          ; dataout16        ;
+; |FFT_module|yb[0]~18                                                  ; |FFT_module|yb[0]~18                                                ; combout          ;
+; |FFT_module|yb[0]~18                                                  ; |FFT_module|yb[0]~19                                                ; cout             ;
+; |FFT_module|sum[2]                                                    ; |FFT_module|sum[2]                                                  ; q                ;
+; |FFT_module|yb[1]~20                                                  ; |FFT_module|yb[1]~20                                                ; combout          ;
+; |FFT_module|yb[1]~20                                                  ; |FFT_module|yb[1]~21                                                ; cout             ;
+; |FFT_module|sum[3]                                                    ; |FFT_module|sum[3]                                                  ; q                ;
+; |FFT_module|yb[2]~22                                                  ; |FFT_module|yb[2]~22                                                ; combout          ;
+; |FFT_module|yb[2]~22                                                  ; |FFT_module|yb[2]~23                                                ; cout             ;
+; |FFT_module|sum[4]                                                    ; |FFT_module|sum[4]                                                  ; q                ;
+; |FFT_module|yb[3]~24                                                  ; |FFT_module|yb[3]~24                                                ; combout          ;
+; |FFT_module|yb[3]~24                                                  ; |FFT_module|yb[3]~25                                                ; cout             ;
+; |FFT_module|sum[5]                                                    ; |FFT_module|sum[5]                                                  ; q                ;
+; |FFT_module|yb[4]~26                                                  ; |FFT_module|yb[4]~26                                                ; combout          ;
+; |FFT_module|yb[4]~26                                                  ; |FFT_module|yb[4]~27                                                ; cout             ;
+; |FFT_module|sum[6]                                                    ; |FFT_module|sum[6]                                                  ; q                ;
+; |FFT_module|yb[5]~28                                                  ; |FFT_module|yb[5]~28                                                ; combout          ;
+; |FFT_module|yb[5]~28                                                  ; |FFT_module|yb[5]~29                                                ; cout             ;
+; |FFT_module|sum[7]                                                    ; |FFT_module|sum[7]                                                  ; q                ;
+; |FFT_module|yb[6]~30                                                  ; |FFT_module|yb[6]~30                                                ; combout          ;
+; |FFT_module|yb[6]~30                                                  ; |FFT_module|yb[6]~31                                                ; cout             ;
+; |FFT_module|sum[8]                                                    ; |FFT_module|sum[8]                                                  ; q                ;
+; |FFT_module|yb[7]~32                                                  ; |FFT_module|yb[7]~32                                                ; combout          ;
+; |FFT_module|yb[7]~32                                                  ; |FFT_module|yb[7]~33                                                ; cout             ;
+; |FFT_module|sum[9]                                                    ; |FFT_module|sum[9]                                                  ; q                ;
+; |FFT_module|yb[8]~34                                                  ; |FFT_module|yb[8]~34                                                ; combout          ;
+; |FFT_module|sum[11]                                                   ; |FFT_module|sum[11]                                                 ; q                ;
+; |FFT_module|lpm_mult:r2|mult_flo:auto_generated|mac_out2              ; |FFT_module|lpm_mult:r2|mult_flo:auto_generated|result[8]           ; dataout8         ;
+; |FFT_module|lpm_mult:r2|mult_flo:auto_generated|mac_out2              ; |FFT_module|lpm_mult:r2|mult_flo:auto_generated|result[9]           ; dataout9         ;
+; |FFT_module|lpm_mult:r2|mult_flo:auto_generated|mac_out2              ; |FFT_module|lpm_mult:r2|mult_flo:auto_generated|result[10]          ; dataout10        ;
+; |FFT_module|lpm_mult:r2|mult_flo:auto_generated|mac_out2              ; |FFT_module|lpm_mult:r2|mult_flo:auto_generated|result[11]          ; dataout11        ;
+; |FFT_module|lpm_mult:r2|mult_flo:auto_generated|mac_out2              ; |FFT_module|lpm_mult:r2|mult_flo:auto_generated|result[12]          ; dataout12        ;
+; |FFT_module|lpm_mult:r2|mult_flo:auto_generated|mac_out2              ; |FFT_module|lpm_mult:r2|mult_flo:auto_generated|result[13]          ; dataout13        ;
+; |FFT_module|lpm_mult:r2|mult_flo:auto_generated|mac_out2              ; |FFT_module|lpm_mult:r2|mult_flo:auto_generated|result[14]          ; dataout14        ;
+; |FFT_module|lpm_mult:r2|mult_flo:auto_generated|mac_out2              ; |FFT_module|lpm_mult:r2|mult_flo:auto_generated|result[15]          ; dataout15        ;
+; |FFT_module|lpm_mult:r2|mult_flo:auto_generated|mac_out2              ; |FFT_module|lpm_mult:r2|mult_flo:auto_generated|result[16]          ; dataout16        ;
+; |FFT_module|lpm_mult:r1|mult_flo:auto_generated|mac_out2              ; |FFT_module|lpm_mult:r1|mult_flo:auto_generated|result[8]           ; dataout8         ;
+; |FFT_module|lpm_mult:r1|mult_flo:auto_generated|mac_out2              ; |FFT_module|lpm_mult:r1|mult_flo:auto_generated|result[9]           ; dataout9         ;
+; |FFT_module|lpm_mult:r1|mult_flo:auto_generated|mac_out2              ; |FFT_module|lpm_mult:r1|mult_flo:auto_generated|result[10]          ; dataout10        ;
+; |FFT_module|lpm_mult:r1|mult_flo:auto_generated|mac_out2              ; |FFT_module|lpm_mult:r1|mult_flo:auto_generated|result[11]          ; dataout11        ;
+; |FFT_module|lpm_mult:r1|mult_flo:auto_generated|mac_out2              ; |FFT_module|lpm_mult:r1|mult_flo:auto_generated|result[12]          ; dataout12        ;
+; |FFT_module|lpm_mult:r1|mult_flo:auto_generated|mac_out2              ; |FFT_module|lpm_mult:r1|mult_flo:auto_generated|result[13]          ; dataout13        ;
+; |FFT_module|lpm_mult:r1|mult_flo:auto_generated|mac_out2              ; |FFT_module|lpm_mult:r1|mult_flo:auto_generated|result[14]          ; dataout14        ;
+; |FFT_module|lpm_mult:r1|mult_flo:auto_generated|mac_out2              ; |FFT_module|lpm_mult:r1|mult_flo:auto_generated|result[15]          ; dataout15        ;
+; |FFT_module|lpm_mult:r1|mult_flo:auto_generated|mac_out2              ; |FFT_module|lpm_mult:r1|mult_flo:auto_generated|result[16]          ; dataout16        ;
+; |FFT_module|yb[9]~36                                                  ; |FFT_module|yb[9]~36                                                ; combout          ;
+; |FFT_module|yb[9]~36                                                  ; |FFT_module|yb[9]~37                                                ; cout             ;
+; |FFT_module|sum[12]                                                   ; |FFT_module|sum[12]                                                 ; q                ;
+; |FFT_module|yb[10]~38                                                 ; |FFT_module|yb[10]~38                                               ; combout          ;
+; |FFT_module|yb[10]~38                                                 ; |FFT_module|yb[10]~39                                               ; cout             ;
+; |FFT_module|sum[13]                                                   ; |FFT_module|sum[13]                                                 ; q                ;
+; |FFT_module|yb[11]~40                                                 ; |FFT_module|yb[11]~40                                               ; combout          ;
+; |FFT_module|yb[11]~40                                                 ; |FFT_module|yb[11]~41                                               ; cout             ;
+; |FFT_module|sum[14]                                                   ; |FFT_module|sum[14]                                                 ; q                ;
+; |FFT_module|yb[12]~42                                                 ; |FFT_module|yb[12]~42                                               ; combout          ;
+; |FFT_module|yb[12]~42                                                 ; |FFT_module|yb[12]~43                                               ; cout             ;
+; |FFT_module|sum[15]                                                   ; |FFT_module|sum[15]                                                 ; q                ;
+; |FFT_module|yb[13]~44                                                 ; |FFT_module|yb[13]~44                                               ; combout          ;
+; |FFT_module|yb[13]~44                                                 ; |FFT_module|yb[13]~45                                               ; cout             ;
+; |FFT_module|sum[16]                                                   ; |FFT_module|sum[16]                                                 ; q                ;
+; |FFT_module|yb[14]~46                                                 ; |FFT_module|yb[14]~46                                               ; combout          ;
+; |FFT_module|yb[14]~46                                                 ; |FFT_module|yb[14]~47                                               ; cout             ;
+; |FFT_module|sum[17]                                                   ; |FFT_module|sum[17]                                                 ; q                ;
+; |FFT_module|yb[15]~48                                                 ; |FFT_module|yb[15]~48                                               ; combout          ;
+; |FFT_module|yb[15]~48                                                 ; |FFT_module|yb[15]~49                                               ; cout             ;
+; |FFT_module|sum[18]                                                   ; |FFT_module|sum[18]                                                 ; q                ;
+; |FFT_module|yb[16]~50                                                 ; |FFT_module|yb[16]~50                                               ; combout          ;
+; |FFT_module|yb[16]~50                                                 ; |FFT_module|yb[16]~51                                               ; cout             ;
+; |FFT_module|sum[19]                                                   ; |FFT_module|sum[19]                                                 ; q                ;
+; |FFT_module|yb[17]~52                                                 ; |FFT_module|yb[17]~52                                               ; combout          ;
+; |FFT_module|sum[1]~19                                                 ; |FFT_module|sum[1]~19                                               ; cout             ;
+; |FFT_module|sum[1]~20                                                 ; |FFT_module|sum[1]~20                                               ; combout          ;
+; |FFT_module|sum[1]~20                                                 ; |FFT_module|sum[1]~21                                               ; cout             ;
+; |FFT_module|lpm_mult:r4|mult_flo:auto_generated|mac_mult1             ; |FFT_module|lpm_mult:r4|mult_flo:auto_generated|mac_mult1           ; dataout0         ;
+; |FFT_module|lpm_mult:r4|mult_flo:auto_generated|mac_mult1             ; |FFT_module|lpm_mult:r4|mult_flo:auto_generated|mac_mult1~DATAOUT1  ; dataout1         ;
+; |FFT_module|lpm_mult:r4|mult_flo:auto_generated|mac_mult1             ; |FFT_module|lpm_mult:r4|mult_flo:auto_generated|mac_mult1~DATAOUT2  ; dataout2         ;
+; |FFT_module|lpm_mult:r4|mult_flo:auto_generated|mac_mult1             ; |FFT_module|lpm_mult:r4|mult_flo:auto_generated|mac_mult1~DATAOUT3  ; dataout3         ;
+; |FFT_module|lpm_mult:r4|mult_flo:auto_generated|mac_mult1             ; |FFT_module|lpm_mult:r4|mult_flo:auto_generated|mac_mult1~DATAOUT4  ; dataout4         ;
+; |FFT_module|lpm_mult:r4|mult_flo:auto_generated|mac_mult1             ; |FFT_module|lpm_mult:r4|mult_flo:auto_generated|mac_mult1~DATAOUT5  ; dataout5         ;
+; |FFT_module|lpm_mult:r4|mult_flo:auto_generated|mac_mult1             ; |FFT_module|lpm_mult:r4|mult_flo:auto_generated|mac_mult1~DATAOUT6  ; dataout6         ;
+; |FFT_module|lpm_mult:r4|mult_flo:auto_generated|mac_mult1             ; |FFT_module|lpm_mult:r4|mult_flo:auto_generated|mac_mult1~DATAOUT7  ; dataout7         ;
+; |FFT_module|lpm_mult:r4|mult_flo:auto_generated|mac_mult1             ; |FFT_module|lpm_mult:r4|mult_flo:auto_generated|mac_mult1~DATAOUT8  ; dataout8         ;
+; |FFT_module|lpm_mult:r4|mult_flo:auto_generated|mac_mult1             ; |FFT_module|lpm_mult:r4|mult_flo:auto_generated|mac_mult1~DATAOUT9  ; dataout9         ;
+; |FFT_module|lpm_mult:r4|mult_flo:auto_generated|mac_mult1             ; |FFT_module|lpm_mult:r4|mult_flo:auto_generated|mac_mult1~DATAOUT10 ; dataout10        ;
+; |FFT_module|lpm_mult:r4|mult_flo:auto_generated|mac_mult1             ; |FFT_module|lpm_mult:r4|mult_flo:auto_generated|mac_mult1~DATAOUT11 ; dataout11        ;
+; |FFT_module|lpm_mult:r4|mult_flo:auto_generated|mac_mult1             ; |FFT_module|lpm_mult:r4|mult_flo:auto_generated|mac_mult1~DATAOUT12 ; dataout12        ;
+; |FFT_module|lpm_mult:r4|mult_flo:auto_generated|mac_mult1             ; |FFT_module|lpm_mult:r4|mult_flo:auto_generated|mac_mult1~DATAOUT13 ; dataout13        ;
+; |FFT_module|lpm_mult:r4|mult_flo:auto_generated|mac_mult1             ; |FFT_module|lpm_mult:r4|mult_flo:auto_generated|mac_mult1~DATAOUT14 ; dataout14        ;
+; |FFT_module|lpm_mult:r4|mult_flo:auto_generated|mac_mult1             ; |FFT_module|lpm_mult:r4|mult_flo:auto_generated|mac_mult1~DATAOUT15 ; dataout15        ;
+; |FFT_module|lpm_mult:r4|mult_flo:auto_generated|mac_mult1             ; |FFT_module|lpm_mult:r4|mult_flo:auto_generated|mac_mult1~DATAOUT16 ; dataout16        ;
+; |FFT_module|lpm_mult:r4|mult_flo:auto_generated|mac_mult1             ; |FFT_module|lpm_mult:r4|mult_flo:auto_generated|mac_mult1~DATAOUT17 ; dataout17        ;
+; |FFT_module|lpm_mult:r3|mult_flo:auto_generated|mac_mult1             ; |FFT_module|lpm_mult:r3|mult_flo:auto_generated|mac_mult1           ; dataout0         ;
+; |FFT_module|lpm_mult:r3|mult_flo:auto_generated|mac_mult1             ; |FFT_module|lpm_mult:r3|mult_flo:auto_generated|mac_mult1~DATAOUT1  ; dataout1         ;
+; |FFT_module|lpm_mult:r3|mult_flo:auto_generated|mac_mult1             ; |FFT_module|lpm_mult:r3|mult_flo:auto_generated|mac_mult1~DATAOUT2  ; dataout2         ;
+; |FFT_module|lpm_mult:r3|mult_flo:auto_generated|mac_mult1             ; |FFT_module|lpm_mult:r3|mult_flo:auto_generated|mac_mult1~DATAOUT3  ; dataout3         ;
+; |FFT_module|lpm_mult:r3|mult_flo:auto_generated|mac_mult1             ; |FFT_module|lpm_mult:r3|mult_flo:auto_generated|mac_mult1~DATAOUT4  ; dataout4         ;
+; |FFT_module|lpm_mult:r3|mult_flo:auto_generated|mac_mult1             ; |FFT_module|lpm_mult:r3|mult_flo:auto_generated|mac_mult1~DATAOUT5  ; dataout5         ;
+; |FFT_module|lpm_mult:r3|mult_flo:auto_generated|mac_mult1             ; |FFT_module|lpm_mult:r3|mult_flo:auto_generated|mac_mult1~DATAOUT6  ; dataout6         ;
+; |FFT_module|lpm_mult:r3|mult_flo:auto_generated|mac_mult1             ; |FFT_module|lpm_mult:r3|mult_flo:auto_generated|mac_mult1~DATAOUT7  ; dataout7         ;
+; |FFT_module|lpm_mult:r3|mult_flo:auto_generated|mac_mult1             ; |FFT_module|lpm_mult:r3|mult_flo:auto_generated|mac_mult1~DATAOUT8  ; dataout8         ;
+; |FFT_module|lpm_mult:r3|mult_flo:auto_generated|mac_mult1             ; |FFT_module|lpm_mult:r3|mult_flo:auto_generated|mac_mult1~DATAOUT9  ; dataout9         ;
+; |FFT_module|lpm_mult:r3|mult_flo:auto_generated|mac_mult1             ; |FFT_module|lpm_mult:r3|mult_flo:auto_generated|mac_mult1~DATAOUT10 ; dataout10        ;
+; |FFT_module|lpm_mult:r3|mult_flo:auto_generated|mac_mult1             ; |FFT_module|lpm_mult:r3|mult_flo:auto_generated|mac_mult1~DATAOUT11 ; dataout11        ;
+; |FFT_module|lpm_mult:r3|mult_flo:auto_generated|mac_mult1             ; |FFT_module|lpm_mult:r3|mult_flo:auto_generated|mac_mult1~DATAOUT12 ; dataout12        ;
+; |FFT_module|lpm_mult:r3|mult_flo:auto_generated|mac_mult1             ; |FFT_module|lpm_mult:r3|mult_flo:auto_generated|mac_mult1~DATAOUT13 ; dataout13        ;
+; |FFT_module|lpm_mult:r3|mult_flo:auto_generated|mac_mult1             ; |FFT_module|lpm_mult:r3|mult_flo:auto_generated|mac_mult1~DATAOUT14 ; dataout14        ;
+; |FFT_module|lpm_mult:r3|mult_flo:auto_generated|mac_mult1             ; |FFT_module|lpm_mult:r3|mult_flo:auto_generated|mac_mult1~DATAOUT15 ; dataout15        ;
+; |FFT_module|lpm_mult:r3|mult_flo:auto_generated|mac_mult1             ; |FFT_module|lpm_mult:r3|mult_flo:auto_generated|mac_mult1~DATAOUT16 ; dataout16        ;
+; |FFT_module|lpm_mult:r3|mult_flo:auto_generated|mac_mult1             ; |FFT_module|lpm_mult:r3|mult_flo:auto_generated|mac_mult1~DATAOUT17 ; dataout17        ;
+; |FFT_module|sum[2]~22                                                 ; |FFT_module|sum[2]~22                                               ; combout          ;
+; |FFT_module|sum[2]~22                                                 ; |FFT_module|sum[2]~23                                               ; cout             ;
+; |FFT_module|sum[3]~24                                                 ; |FFT_module|sum[3]~24                                               ; combout          ;
+; |FFT_module|sum[3]~24                                                 ; |FFT_module|sum[3]~25                                               ; cout             ;
+; |FFT_module|sum[4]~26                                                 ; |FFT_module|sum[4]~26                                               ; combout          ;
+; |FFT_module|sum[4]~26                                                 ; |FFT_module|sum[4]~27                                               ; cout             ;
+; |FFT_module|sum[5]~28                                                 ; |FFT_module|sum[5]~28                                               ; combout          ;
+; |FFT_module|sum[5]~28                                                 ; |FFT_module|sum[5]~29                                               ; cout             ;
+; |FFT_module|sum[6]~30                                                 ; |FFT_module|sum[6]~30                                               ; combout          ;
+; |FFT_module|sum[6]~30                                                 ; |FFT_module|sum[6]~31                                               ; cout             ;
+; |FFT_module|sum[7]~32                                                 ; |FFT_module|sum[7]~32                                               ; combout          ;
+; |FFT_module|sum[7]~32                                                 ; |FFT_module|sum[7]~33                                               ; cout             ;
+; |FFT_module|sum[8]~34                                                 ; |FFT_module|sum[8]~34                                               ; combout          ;
+; |FFT_module|sum[8]~34                                                 ; |FFT_module|sum[8]~35                                               ; cout             ;
+; |FFT_module|sum[9]~36                                                 ; |FFT_module|sum[9]~36                                               ; combout          ;
+; |FFT_module|sum[11]~39                                                ; |FFT_module|sum[11]~39                                              ; cout             ;
+; |FFT_module|sum[11]~40                                                ; |FFT_module|sum[11]~40                                              ; combout          ;
+; |FFT_module|sum[11]~40                                                ; |FFT_module|sum[11]~41                                              ; cout             ;
+; |FFT_module|lpm_mult:r2|mult_flo:auto_generated|mac_mult1             ; |FFT_module|lpm_mult:r2|mult_flo:auto_generated|mac_mult1           ; dataout0         ;
+; |FFT_module|lpm_mult:r2|mult_flo:auto_generated|mac_mult1             ; |FFT_module|lpm_mult:r2|mult_flo:auto_generated|mac_mult1~DATAOUT1  ; dataout1         ;
+; |FFT_module|lpm_mult:r2|mult_flo:auto_generated|mac_mult1             ; |FFT_module|lpm_mult:r2|mult_flo:auto_generated|mac_mult1~DATAOUT2  ; dataout2         ;
+; |FFT_module|lpm_mult:r2|mult_flo:auto_generated|mac_mult1             ; |FFT_module|lpm_mult:r2|mult_flo:auto_generated|mac_mult1~DATAOUT3  ; dataout3         ;
+; |FFT_module|lpm_mult:r2|mult_flo:auto_generated|mac_mult1             ; |FFT_module|lpm_mult:r2|mult_flo:auto_generated|mac_mult1~DATAOUT4  ; dataout4         ;
+; |FFT_module|lpm_mult:r2|mult_flo:auto_generated|mac_mult1             ; |FFT_module|lpm_mult:r2|mult_flo:auto_generated|mac_mult1~DATAOUT5  ; dataout5         ;
+; |FFT_module|lpm_mult:r2|mult_flo:auto_generated|mac_mult1             ; |FFT_module|lpm_mult:r2|mult_flo:auto_generated|mac_mult1~DATAOUT6  ; dataout6         ;
+; |FFT_module|lpm_mult:r2|mult_flo:auto_generated|mac_mult1             ; |FFT_module|lpm_mult:r2|mult_flo:auto_generated|mac_mult1~DATAOUT7  ; dataout7         ;
+; |FFT_module|lpm_mult:r2|mult_flo:auto_generated|mac_mult1             ; |FFT_module|lpm_mult:r2|mult_flo:auto_generated|mac_mult1~DATAOUT8  ; dataout8         ;
+; |FFT_module|lpm_mult:r2|mult_flo:auto_generated|mac_mult1             ; |FFT_module|lpm_mult:r2|mult_flo:auto_generated|mac_mult1~DATAOUT9  ; dataout9         ;
+; |FFT_module|lpm_mult:r2|mult_flo:auto_generated|mac_mult1             ; |FFT_module|lpm_mult:r2|mult_flo:auto_generated|mac_mult1~DATAOUT10 ; dataout10        ;
+; |FFT_module|lpm_mult:r2|mult_flo:auto_generated|mac_mult1             ; |FFT_module|lpm_mult:r2|mult_flo:auto_generated|mac_mult1~DATAOUT11 ; dataout11        ;
+; |FFT_module|lpm_mult:r2|mult_flo:auto_generated|mac_mult1             ; |FFT_module|lpm_mult:r2|mult_flo:auto_generated|mac_mult1~DATAOUT12 ; dataout12        ;
+; |FFT_module|lpm_mult:r2|mult_flo:auto_generated|mac_mult1             ; |FFT_module|lpm_mult:r2|mult_flo:auto_generated|mac_mult1~DATAOUT13 ; dataout13        ;
+; |FFT_module|lpm_mult:r2|mult_flo:auto_generated|mac_mult1             ; |FFT_module|lpm_mult:r2|mult_flo:auto_generated|mac_mult1~DATAOUT14 ; dataout14        ;
+; |FFT_module|lpm_mult:r2|mult_flo:auto_generated|mac_mult1             ; |FFT_module|lpm_mult:r2|mult_flo:auto_generated|mac_mult1~DATAOUT15 ; dataout15        ;
+; |FFT_module|lpm_mult:r2|mult_flo:auto_generated|mac_mult1             ; |FFT_module|lpm_mult:r2|mult_flo:auto_generated|mac_mult1~DATAOUT16 ; dataout16        ;
+; |FFT_module|lpm_mult:r2|mult_flo:auto_generated|mac_mult1             ; |FFT_module|lpm_mult:r2|mult_flo:auto_generated|mac_mult1~DATAOUT17 ; dataout17        ;
+; |FFT_module|lpm_mult:r1|mult_flo:auto_generated|mac_mult1             ; |FFT_module|lpm_mult:r1|mult_flo:auto_generated|mac_mult1           ; dataout0         ;
+; |FFT_module|lpm_mult:r1|mult_flo:auto_generated|mac_mult1             ; |FFT_module|lpm_mult:r1|mult_flo:auto_generated|mac_mult1~DATAOUT1  ; dataout1         ;
+; |FFT_module|lpm_mult:r1|mult_flo:auto_generated|mac_mult1             ; |FFT_module|lpm_mult:r1|mult_flo:auto_generated|mac_mult1~DATAOUT2  ; dataout2         ;
+; |FFT_module|lpm_mult:r1|mult_flo:auto_generated|mac_mult1             ; |FFT_module|lpm_mult:r1|mult_flo:auto_generated|mac_mult1~DATAOUT3  ; dataout3         ;
+; |FFT_module|lpm_mult:r1|mult_flo:auto_generated|mac_mult1             ; |FFT_module|lpm_mult:r1|mult_flo:auto_generated|mac_mult1~DATAOUT4  ; dataout4         ;
+; |FFT_module|lpm_mult:r1|mult_flo:auto_generated|mac_mult1             ; |FFT_module|lpm_mult:r1|mult_flo:auto_generated|mac_mult1~DATAOUT5  ; dataout5         ;
+; |FFT_module|lpm_mult:r1|mult_flo:auto_generated|mac_mult1             ; |FFT_module|lpm_mult:r1|mult_flo:auto_generated|mac_mult1~DATAOUT6  ; dataout6         ;
+; |FFT_module|lpm_mult:r1|mult_flo:auto_generated|mac_mult1             ; |FFT_module|lpm_mult:r1|mult_flo:auto_generated|mac_mult1~DATAOUT7  ; dataout7         ;
+; |FFT_module|lpm_mult:r1|mult_flo:auto_generated|mac_mult1             ; |FFT_module|lpm_mult:r1|mult_flo:auto_generated|mac_mult1~DATAOUT8  ; dataout8         ;
+; |FFT_module|lpm_mult:r1|mult_flo:auto_generated|mac_mult1             ; |FFT_module|lpm_mult:r1|mult_flo:auto_generated|mac_mult1~DATAOUT9  ; dataout9         ;
+; |FFT_module|lpm_mult:r1|mult_flo:auto_generated|mac_mult1             ; |FFT_module|lpm_mult:r1|mult_flo:auto_generated|mac_mult1~DATAOUT10 ; dataout10        ;
+; |FFT_module|lpm_mult:r1|mult_flo:auto_generated|mac_mult1             ; |FFT_module|lpm_mult:r1|mult_flo:auto_generated|mac_mult1~DATAOUT11 ; dataout11        ;
+; |FFT_module|lpm_mult:r1|mult_flo:auto_generated|mac_mult1             ; |FFT_module|lpm_mult:r1|mult_flo:auto_generated|mac_mult1~DATAOUT12 ; dataout12        ;
+; |FFT_module|lpm_mult:r1|mult_flo:auto_generated|mac_mult1             ; |FFT_module|lpm_mult:r1|mult_flo:auto_generated|mac_mult1~DATAOUT13 ; dataout13        ;
+; |FFT_module|lpm_mult:r1|mult_flo:auto_generated|mac_mult1             ; |FFT_module|lpm_mult:r1|mult_flo:auto_generated|mac_mult1~DATAOUT14 ; dataout14        ;
+; |FFT_module|lpm_mult:r1|mult_flo:auto_generated|mac_mult1             ; |FFT_module|lpm_mult:r1|mult_flo:auto_generated|mac_mult1~DATAOUT15 ; dataout15        ;
+; |FFT_module|lpm_mult:r1|mult_flo:auto_generated|mac_mult1             ; |FFT_module|lpm_mult:r1|mult_flo:auto_generated|mac_mult1~DATAOUT16 ; dataout16        ;
+; |FFT_module|lpm_mult:r1|mult_flo:auto_generated|mac_mult1             ; |FFT_module|lpm_mult:r1|mult_flo:auto_generated|mac_mult1~DATAOUT17 ; dataout17        ;
+; |FFT_module|sum[12]~42                                                ; |FFT_module|sum[12]~42                                              ; combout          ;
+; |FFT_module|sum[12]~42                                                ; |FFT_module|sum[12]~43                                              ; cout             ;
+; |FFT_module|sum[13]~44                                                ; |FFT_module|sum[13]~44                                              ; combout          ;
+; |FFT_module|sum[13]~44                                                ; |FFT_module|sum[13]~45                                              ; cout             ;
+; |FFT_module|sum[14]~46                                                ; |FFT_module|sum[14]~46                                              ; combout          ;
+; |FFT_module|sum[14]~46                                                ; |FFT_module|sum[14]~47                                              ; cout             ;
+; |FFT_module|sum[15]~48                                                ; |FFT_module|sum[15]~48                                              ; combout          ;
+; |FFT_module|sum[15]~48                                                ; |FFT_module|sum[15]~49                                              ; cout             ;
+; |FFT_module|sum[16]~50                                                ; |FFT_module|sum[16]~50                                              ; combout          ;
+; |FFT_module|sum[16]~50                                                ; |FFT_module|sum[16]~51                                              ; cout             ;
+; |FFT_module|sum[17]~52                                                ; |FFT_module|sum[17]~52                                              ; combout          ;
+; |FFT_module|sum[17]~52                                                ; |FFT_module|sum[17]~53                                              ; cout             ;
+; |FFT_module|sum[18]~54                                                ; |FFT_module|sum[18]~54                                              ; combout          ;
+; |FFT_module|sum[18]~54                                                ; |FFT_module|sum[18]~55                                              ; cout             ;
+; |FFT_module|sum[19]~56                                                ; |FFT_module|sum[19]~56                                              ; combout          ;
+; |FFT_module|altsyncram:mW|altsyncram_hpd3:auto_generated|ram_block1a0 ; |FFT_module|altsyncram:mW|altsyncram_hpd3:auto_generated|q_a[0]     ; portadataout0    ;
+; |FFT_module|altsyncram:mW|altsyncram_hpd3:auto_generated|ram_block1a0 ; |FFT_module|altsyncram:mW|altsyncram_hpd3:auto_generated|q_a[1]     ; portadataout1    ;
+; |FFT_module|altsyncram:mW|altsyncram_hpd3:auto_generated|ram_block1a0 ; |FFT_module|altsyncram:mW|altsyncram_hpd3:auto_generated|q_a[2]     ; portadataout2    ;
+; |FFT_module|altsyncram:mW|altsyncram_hpd3:auto_generated|ram_block1a0 ; |FFT_module|altsyncram:mW|altsyncram_hpd3:auto_generated|q_a[3]     ; portadataout3    ;
+; |FFT_module|altsyncram:mW|altsyncram_hpd3:auto_generated|ram_block1a0 ; |FFT_module|altsyncram:mW|altsyncram_hpd3:auto_generated|q_a[4]     ; portadataout4    ;
+; |FFT_module|altsyncram:mW|altsyncram_hpd3:auto_generated|ram_block1a0 ; |FFT_module|altsyncram:mW|altsyncram_hpd3:auto_generated|q_a[5]     ; portadataout5    ;
+; |FFT_module|altsyncram:mW|altsyncram_hpd3:auto_generated|ram_block1a0 ; |FFT_module|altsyncram:mW|altsyncram_hpd3:auto_generated|q_a[6]     ; portadataout6    ;
+; |FFT_module|altsyncram:mW|altsyncram_hpd3:auto_generated|ram_block1a0 ; |FFT_module|altsyncram:mW|altsyncram_hpd3:auto_generated|q_a[7]     ; portadataout7    ;
+; |FFT_module|altsyncram:mW|altsyncram_hpd3:auto_generated|ram_block1a0 ; |FFT_module|altsyncram:mW|altsyncram_hpd3:auto_generated|q_a[8]     ; portadataout8    ;
+; |FFT_module|altsyncram:mW|altsyncram_hpd3:auto_generated|ram_block1a0 ; |FFT_module|altsyncram:mW|altsyncram_hpd3:auto_generated|q_a[9]     ; portadataout9    ;
+; |FFT_module|altsyncram:mW|altsyncram_hpd3:auto_generated|ram_block1a0 ; |FFT_module|altsyncram:mW|altsyncram_hpd3:auto_generated|q_a[10]    ; portadataout10   ;
+; |FFT_module|altsyncram:mW|altsyncram_hpd3:auto_generated|ram_block1a0 ; |FFT_module|altsyncram:mW|altsyncram_hpd3:auto_generated|q_a[11]    ; portadataout11   ;
+; |FFT_module|altsyncram:mW|altsyncram_hpd3:auto_generated|ram_block1a0 ; |FFT_module|altsyncram:mW|altsyncram_hpd3:auto_generated|q_a[12]    ; portadataout12   ;
+; |FFT_module|altsyncram:mW|altsyncram_hpd3:auto_generated|ram_block1a0 ; |FFT_module|altsyncram:mW|altsyncram_hpd3:auto_generated|q_a[13]    ; portadataout13   ;
+; |FFT_module|altsyncram:mW|altsyncram_hpd3:auto_generated|ram_block1a0 ; |FFT_module|altsyncram:mW|altsyncram_hpd3:auto_generated|q_a[14]    ; portadataout14   ;
+; |FFT_module|altsyncram:mW|altsyncram_hpd3:auto_generated|ram_block1a0 ; |FFT_module|altsyncram:mW|altsyncram_hpd3:auto_generated|q_a[15]    ; portadataout15   ;
+; |FFT_module|altsyncram:mW|altsyncram_hpd3:auto_generated|ram_block1a0 ; |FFT_module|altsyncram:mW|altsyncram_hpd3:auto_generated|q_a[16]    ; portadataout16   ;
+; |FFT_module|altsyncram:mW|altsyncram_hpd3:auto_generated|ram_block1a0 ; |FFT_module|altsyncram:mW|altsyncram_hpd3:auto_generated|q_a[17]    ; portadataout17   ;
+; |FFT_module|altsyncram:mL|altsyncram_ihi3:auto_generated|ram_block1a0 ; |FFT_module|altsyncram:mL|altsyncram_ihi3:auto_generated|q_a[0]     ; portadataout0    ;
+; |FFT_module|altsyncram:mL|altsyncram_ihi3:auto_generated|ram_block1a0 ; |FFT_module|altsyncram:mL|altsyncram_ihi3:auto_generated|q_a[1]     ; portadataout1    ;
+; |FFT_module|altsyncram:mL|altsyncram_ihi3:auto_generated|ram_block1a0 ; |FFT_module|altsyncram:mL|altsyncram_ihi3:auto_generated|q_a[2]     ; portadataout2    ;
+; |FFT_module|altsyncram:mL|altsyncram_ihi3:auto_generated|ram_block1a0 ; |FFT_module|altsyncram:mL|altsyncram_ihi3:auto_generated|q_a[3]     ; portadataout3    ;
+; |FFT_module|altsyncram:mL|altsyncram_ihi3:auto_generated|ram_block1a0 ; |FFT_module|altsyncram:mL|altsyncram_ihi3:auto_generated|q_a[4]     ; portadataout4    ;
+; |FFT_module|altsyncram:mL|altsyncram_ihi3:auto_generated|ram_block1a0 ; |FFT_module|altsyncram:mL|altsyncram_ihi3:auto_generated|q_a[5]     ; portadataout5    ;
+; |FFT_module|altsyncram:mL|altsyncram_ihi3:auto_generated|ram_block1a0 ; |FFT_module|altsyncram:mL|altsyncram_ihi3:auto_generated|q_a[6]     ; portadataout6    ;
+; |FFT_module|altsyncram:mL|altsyncram_ihi3:auto_generated|ram_block1a0 ; |FFT_module|altsyncram:mL|altsyncram_ihi3:auto_generated|q_a[7]     ; portadataout7    ;
+; |FFT_module|altsyncram:mL|altsyncram_ihi3:auto_generated|ram_block1a0 ; |FFT_module|altsyncram:mL|altsyncram_ihi3:auto_generated|q_a[8]     ; portadataout8    ;
+; |FFT_module|altsyncram:mL|altsyncram_ihi3:auto_generated|ram_block1a0 ; |FFT_module|altsyncram:mL|altsyncram_ihi3:auto_generated|q_a[9]     ; portadataout9    ;
+; |FFT_module|altsyncram:mL|altsyncram_ihi3:auto_generated|ram_block1a0 ; |FFT_module|altsyncram:mL|altsyncram_ihi3:auto_generated|q_a[10]    ; portadataout10   ;
+; |FFT_module|altsyncram:mL|altsyncram_ihi3:auto_generated|ram_block1a0 ; |FFT_module|altsyncram:mL|altsyncram_ihi3:auto_generated|q_a[11]    ; portadataout11   ;
+; |FFT_module|altsyncram:mL|altsyncram_ihi3:auto_generated|ram_block1a0 ; |FFT_module|altsyncram:mL|altsyncram_ihi3:auto_generated|q_a[12]    ; portadataout12   ;
+; |FFT_module|altsyncram:mL|altsyncram_ihi3:auto_generated|ram_block1a0 ; |FFT_module|altsyncram:mL|altsyncram_ihi3:auto_generated|q_a[13]    ; portadataout13   ;
+; |FFT_module|altsyncram:mL|altsyncram_ihi3:auto_generated|ram_block1a0 ; |FFT_module|altsyncram:mL|altsyncram_ihi3:auto_generated|q_a[14]    ; portadataout14   ;
+; |FFT_module|altsyncram:mL|altsyncram_ihi3:auto_generated|ram_block1a0 ; |FFT_module|altsyncram:mL|altsyncram_ihi3:auto_generated|q_a[15]    ; portadataout15   ;
+; |FFT_module|altsyncram:mL|altsyncram_ihi3:auto_generated|ram_block1a0 ; |FFT_module|altsyncram:mL|altsyncram_ihi3:auto_generated|q_a[16]    ; portadataout16   ;
+; |FFT_module|altsyncram:mL|altsyncram_ihi3:auto_generated|ram_block1a0 ; |FFT_module|altsyncram:mL|altsyncram_ihi3:auto_generated|q_a[17]    ; portadataout17   ;
+; |FFT_module|altsyncram:mL|altsyncram_ihi3:auto_generated|ram_block1a0 ; |FFT_module|altsyncram:mL|altsyncram_ihi3:auto_generated|q_b[0]     ; portbdataout0    ;
+; |FFT_module|altsyncram:mL|altsyncram_ihi3:auto_generated|ram_block1a0 ; |FFT_module|altsyncram:mL|altsyncram_ihi3:auto_generated|q_b[1]     ; portbdataout1    ;
+; |FFT_module|altsyncram:mL|altsyncram_ihi3:auto_generated|ram_block1a0 ; |FFT_module|altsyncram:mL|altsyncram_ihi3:auto_generated|q_b[2]     ; portbdataout2    ;
+; |FFT_module|altsyncram:mL|altsyncram_ihi3:auto_generated|ram_block1a0 ; |FFT_module|altsyncram:mL|altsyncram_ihi3:auto_generated|q_b[3]     ; portbdataout3    ;
+; |FFT_module|altsyncram:mL|altsyncram_ihi3:auto_generated|ram_block1a0 ; |FFT_module|altsyncram:mL|altsyncram_ihi3:auto_generated|q_b[4]     ; portbdataout4    ;
+; |FFT_module|altsyncram:mL|altsyncram_ihi3:auto_generated|ram_block1a0 ; |FFT_module|altsyncram:mL|altsyncram_ihi3:auto_generated|q_b[5]     ; portbdataout5    ;
+; |FFT_module|altsyncram:mL|altsyncram_ihi3:auto_generated|ram_block1a0 ; |FFT_module|altsyncram:mL|altsyncram_ihi3:auto_generated|q_b[6]     ; portbdataout6    ;
+; |FFT_module|altsyncram:mL|altsyncram_ihi3:auto_generated|ram_block1a0 ; |FFT_module|altsyncram:mL|altsyncram_ihi3:auto_generated|q_b[7]     ; portbdataout7    ;
+; |FFT_module|altsyncram:mL|altsyncram_ihi3:auto_generated|ram_block1a0 ; |FFT_module|altsyncram:mL|altsyncram_ihi3:auto_generated|q_b[8]     ; portbdataout8    ;
+; |FFT_module|altsyncram:mL|altsyncram_ihi3:auto_generated|ram_block1a0 ; |FFT_module|altsyncram:mL|altsyncram_ihi3:auto_generated|q_b[9]     ; portbdataout9    ;
+; |FFT_module|altsyncram:mL|altsyncram_ihi3:auto_generated|ram_block1a0 ; |FFT_module|altsyncram:mL|altsyncram_ihi3:auto_generated|q_b[10]    ; portbdataout10   ;
+; |FFT_module|altsyncram:mL|altsyncram_ihi3:auto_generated|ram_block1a0 ; |FFT_module|altsyncram:mL|altsyncram_ihi3:auto_generated|q_b[11]    ; portbdataout11   ;
+; |FFT_module|altsyncram:mL|altsyncram_ihi3:auto_generated|ram_block1a0 ; |FFT_module|altsyncram:mL|altsyncram_ihi3:auto_generated|q_b[12]    ; portbdataout12   ;
+; |FFT_module|altsyncram:mL|altsyncram_ihi3:auto_generated|ram_block1a0 ; |FFT_module|altsyncram:mL|altsyncram_ihi3:auto_generated|q_b[13]    ; portbdataout13   ;
+; |FFT_module|altsyncram:mL|altsyncram_ihi3:auto_generated|ram_block1a0 ; |FFT_module|altsyncram:mL|altsyncram_ihi3:auto_generated|q_b[14]    ; portbdataout14   ;
+; |FFT_module|altsyncram:mL|altsyncram_ihi3:auto_generated|ram_block1a0 ; |FFT_module|altsyncram:mL|altsyncram_ihi3:auto_generated|q_b[15]    ; portbdataout15   ;
+; |FFT_module|altsyncram:mL|altsyncram_ihi3:auto_generated|ram_block1a0 ; |FFT_module|altsyncram:mL|altsyncram_ihi3:auto_generated|q_b[16]    ; portbdataout16   ;
+; |FFT_module|altsyncram:mL|altsyncram_ihi3:auto_generated|ram_block1a0 ; |FFT_module|altsyncram:mL|altsyncram_ihi3:auto_generated|q_b[17]    ; portbdataout17   ;
+; |FFT_module|dif[1]~19                                                 ; |FFT_module|dif[1]~19                                               ; cout             ;
+; |FFT_module|dif[1]~20                                                 ; |FFT_module|dif[1]~20                                               ; combout          ;
+; |FFT_module|dif[1]~20                                                 ; |FFT_module|dif[1]~21                                               ; cout             ;
+; |FFT_module|dif[2]~22                                                 ; |FFT_module|dif[2]~22                                               ; combout          ;
+; |FFT_module|dif[2]~22                                                 ; |FFT_module|dif[2]~23                                               ; cout             ;
+; |FFT_module|dif[3]~24                                                 ; |FFT_module|dif[3]~24                                               ; combout          ;
+; |FFT_module|dif[3]~24                                                 ; |FFT_module|dif[3]~25                                               ; cout             ;
+; |FFT_module|dif[4]~26                                                 ; |FFT_module|dif[4]~26                                               ; combout          ;
+; |FFT_module|dif[4]~26                                                 ; |FFT_module|dif[4]~27                                               ; cout             ;
+; |FFT_module|dif[5]~28                                                 ; |FFT_module|dif[5]~28                                               ; combout          ;
+; |FFT_module|dif[5]~28                                                 ; |FFT_module|dif[5]~29                                               ; cout             ;
+; |FFT_module|dif[6]~30                                                 ; |FFT_module|dif[6]~30                                               ; combout          ;
+; |FFT_module|dif[6]~30                                                 ; |FFT_module|dif[6]~31                                               ; cout             ;
+; |FFT_module|dif[7]~32                                                 ; |FFT_module|dif[7]~32                                               ; combout          ;
+; |FFT_module|dif[7]~32                                                 ; |FFT_module|dif[7]~33                                               ; cout             ;
+; |FFT_module|dif[8]~34                                                 ; |FFT_module|dif[8]~34                                               ; combout          ;
+; |FFT_module|dif[8]~34                                                 ; |FFT_module|dif[8]~35                                               ; cout             ;
+; |FFT_module|dif[9]~36                                                 ; |FFT_module|dif[9]~36                                               ; combout          ;
+; |FFT_module|dif[11]~39                                                ; |FFT_module|dif[11]~39                                              ; cout             ;
+; |FFT_module|dif[11]~40                                                ; |FFT_module|dif[11]~40                                              ; combout          ;
+; |FFT_module|dif[11]~40                                                ; |FFT_module|dif[11]~41                                              ; cout             ;
+; |FFT_module|dif[12]~42                                                ; |FFT_module|dif[12]~42                                              ; combout          ;
+; |FFT_module|dif[12]~42                                                ; |FFT_module|dif[12]~43                                              ; cout             ;
+; |FFT_module|dif[13]~44                                                ; |FFT_module|dif[13]~44                                              ; combout          ;
+; |FFT_module|dif[13]~44                                                ; |FFT_module|dif[13]~45                                              ; cout             ;
+; |FFT_module|dif[14]~46                                                ; |FFT_module|dif[14]~46                                              ; combout          ;
+; |FFT_module|dif[14]~46                                                ; |FFT_module|dif[14]~47                                              ; cout             ;
+; |FFT_module|dif[15]~48                                                ; |FFT_module|dif[15]~48                                              ; combout          ;
+; |FFT_module|dif[15]~48                                                ; |FFT_module|dif[15]~49                                              ; cout             ;
+; |FFT_module|dif[16]~50                                                ; |FFT_module|dif[16]~50                                              ; combout          ;
+; |FFT_module|dif[16]~50                                                ; |FFT_module|dif[16]~51                                              ; cout             ;
+; |FFT_module|dif[17]~52                                                ; |FFT_module|dif[17]~52                                              ; combout          ;
+; |FFT_module|dif[17]~52                                                ; |FFT_module|dif[17]~53                                              ; cout             ;
+; |FFT_module|dif[18]~54                                                ; |FFT_module|dif[18]~54                                              ; combout          ;
+; |FFT_module|dif[18]~54                                                ; |FFT_module|dif[18]~55                                              ; cout             ;
+; |FFT_module|dif[19]~56                                                ; |FFT_module|dif[19]~56                                              ; combout          ;
+; |FFT_module|Lw                                                        ; |FFT_module|Lw                                                      ; q                ;
+; |FFT_module|done~reg0                                                 ; |FFT_module|done~reg0                                               ; q                ;
+; |FFT_module|unload_valid~reg0                                         ; |FFT_module|unload_valid~reg0                                       ; q                ;
+; |FFT_module|outdata[0]~reg0                                           ; |FFT_module|outdata[0]~reg0                                         ; q                ;
+; |FFT_module|outdata[1]~reg0                                           ; |FFT_module|outdata[1]~reg0                                         ; q                ;
+; |FFT_module|outdata[2]~reg0                                           ; |FFT_module|outdata[2]~reg0                                         ; q                ;
+; |FFT_module|outdata[3]~reg0                                           ; |FFT_module|outdata[3]~reg0                                         ; q                ;
+; |FFT_module|outdata[4]~reg0                                           ; |FFT_module|outdata[4]~reg0                                         ; q                ;
+; |FFT_module|outdata[5]~reg0                                           ; |FFT_module|outdata[5]~reg0                                         ; q                ;
+; |FFT_module|outdata[6]~reg0                                           ; |FFT_module|outdata[6]~reg0                                         ; q                ;
+; |FFT_module|outdata[7]~reg0                                           ; |FFT_module|outdata[7]~reg0                                         ; q                ;
+; |FFT_module|outdata[8]~reg0                                           ; |FFT_module|outdata[8]~reg0                                         ; q                ;
+; |FFT_module|outdata[9]~reg0                                           ; |FFT_module|outdata[9]~reg0                                         ; q                ;
+; |FFT_module|outdata[10]~reg0                                          ; |FFT_module|outdata[10]~reg0                                        ; q                ;
+; |FFT_module|outdata[11]~reg0                                          ; |FFT_module|outdata[11]~reg0                                        ; q                ;
+; |FFT_module|outdata[12]~reg0                                          ; |FFT_module|outdata[12]~reg0                                        ; q                ;
+; |FFT_module|outdata[13]~reg0                                          ; |FFT_module|outdata[13]~reg0                                        ; q                ;
+; |FFT_module|outdata[14]~reg0                                          ; |FFT_module|outdata[14]~reg0                                        ; q                ;
+; |FFT_module|do                                                        ; |FFT_module|do                                                      ; q                ;
+; |FFT_module|unload_enable2                                            ; |FFT_module|unload_enable2                                          ; q                ;
+; |FFT_module|pass_end                                                  ; |FFT_module|pass_end                                                ; q                ;
+; |FFT_module|pass[0]                                                   ; |FFT_module|pass[0]                                                 ; q                ;
+; |FFT_module|pass[1]                                                   ; |FFT_module|pass[1]                                                 ; q                ;
+; |FFT_module|do~1                                                      ; |FFT_module|do~1                                                    ; combout          ;
+; |FFT_module|unload_enable1                                            ; |FFT_module|unload_enable1                                          ; q                ;
+; |FFT_module|RAd[0]                                                    ; |FFT_module|RAd[0]                                                  ; q                ;
+; |FFT_module|RAa[0]                                                    ; |FFT_module|RAa[0]                                                  ; q                ;
+; |FFT_module|RAa[1]                                                    ; |FFT_module|RAa[1]                                                  ; q                ;
+; |FFT_module|RAa[2]                                                    ; |FFT_module|RAa[2]                                                  ; q                ;
+; |FFT_module|RAa[3]                                                    ; |FFT_module|RAa[3]                                                  ; q                ;
+; |FFT_module|RAa[4]                                                    ; |FFT_module|RAa[4]                                                  ; q                ;
+; |FFT_module|RBd[0]                                                    ; |FFT_module|RBd[0]                                                  ; q                ;
+; |FFT_module|RBa[0]                                                    ; |FFT_module|RBa[0]                                                  ; q                ;
+; |FFT_module|RBa[1]                                                    ; |FFT_module|RBa[1]                                                  ; q                ;
+; |FFT_module|RBa[2]                                                    ; |FFT_module|RBa[2]                                                  ; q                ;
+; |FFT_module|RBa[3]                                                    ; |FFT_module|RBa[3]                                                  ; q                ;
+; |FFT_module|RBa[4]                                                    ; |FFT_module|RBa[4]                                                  ; q                ;
+; |FFT_module|RAd[1]                                                    ; |FFT_module|RAd[1]                                                  ; q                ;
+; |FFT_module|RBd[1]                                                    ; |FFT_module|RBd[1]                                                  ; q                ;
+; |FFT_module|RAd[2]                                                    ; |FFT_module|RAd[2]                                                  ; q                ;
+; |FFT_module|RBd[2]                                                    ; |FFT_module|RBd[2]                                                  ; q                ;
+; |FFT_module|RAd[3]                                                    ; |FFT_module|RAd[3]                                                  ; q                ;
+; |FFT_module|RBd[3]                                                    ; |FFT_module|RBd[3]                                                  ; q                ;
+; |FFT_module|RAd[4]                                                    ; |FFT_module|RAd[4]                                                  ; q                ;
+; |FFT_module|RBd[4]                                                    ; |FFT_module|RBd[4]                                                  ; q                ;
+; |FFT_module|RAd[5]                                                    ; |FFT_module|RAd[5]                                                  ; q                ;
+; |FFT_module|RBd[5]                                                    ; |FFT_module|RBd[5]                                                  ; q                ;
+; |FFT_module|RAd[6]                                                    ; |FFT_module|RAd[6]                                                  ; q                ;
+; |FFT_module|RBd[6]                                                    ; |FFT_module|RBd[6]                                                  ; q                ;
+; |FFT_module|RAd[7]                                                    ; |FFT_module|RAd[7]                                                  ; q                ;
+; |FFT_module|RBd[7]                                                    ; |FFT_module|RBd[7]                                                  ; q                ;
+; |FFT_module|RAd[8]                                                    ; |FFT_module|RAd[8]                                                  ; q                ;
+; |FFT_module|RBd[8]                                                    ; |FFT_module|RBd[8]                                                  ; q                ;
+; |FFT_module|RAd[9]                                                    ; |FFT_module|RAd[9]                                                  ; q                ;
+; |FFT_module|RBd[9]                                                    ; |FFT_module|RBd[9]                                                  ; q                ;
+; |FFT_module|RAd[10]                                                   ; |FFT_module|RAd[10]                                                 ; q                ;
+; |FFT_module|RBd[10]                                                   ; |FFT_module|RBd[10]                                                 ; q                ;
+; |FFT_module|RAd[11]                                                   ; |FFT_module|RAd[11]                                                 ; q                ;
+; |FFT_module|RBd[11]                                                   ; |FFT_module|RBd[11]                                                 ; q                ;
+; |FFT_module|RAd[12]                                                   ; |FFT_module|RAd[12]                                                 ; q                ;
+; |FFT_module|RBd[12]                                                   ; |FFT_module|RBd[12]                                                 ; q                ;
+; |FFT_module|RAd[13]                                                   ; |FFT_module|RAd[13]                                                 ; q                ;
+; |FFT_module|RBd[13]                                                   ; |FFT_module|RBd[13]                                                 ; q                ;
+; |FFT_module|RAd[14]                                                   ; |FFT_module|RAd[14]                                                 ; q                ;
+; |FFT_module|RBd[14]                                                   ; |FFT_module|RBd[14]                                                 ; q                ;
+; |FFT_module|RAd[15]                                                   ; |FFT_module|RAd[15]                                                 ; q                ;
+; |FFT_module|RBd[15]                                                   ; |FFT_module|RBd[15]                                                 ; q                ;
+; |FFT_module|RAd[16]                                                   ; |FFT_module|RAd[16]                                                 ; q                ;
+; |FFT_module|RBd[16]                                                   ; |FFT_module|RBd[16]                                                 ; q                ;
+; |FFT_module|RAd[17]                                                   ; |FFT_module|RAd[17]                                                 ; q                ;
+; |FFT_module|RBd[17]                                                   ; |FFT_module|RBd[17]                                                 ; q                ;
+; |FFT_module|Equal3~0                                                  ; |FFT_module|Equal3~0                                                ; combout          ;
+; |FFT_module|Equal3~1                                                  ; |FFT_module|Equal3~1                                                ; combout          ;
+; |FFT_module|Add0~0                                                    ; |FFT_module|Add0~0                                                  ; combout          ;
+; |FFT_module|start                                                     ; |FFT_module|start                                                   ; q                ;
+; |FFT_module|pass~6                                                    ; |FFT_module|pass~6                                                  ; combout          ;
+; |FFT_module|pass~7                                                    ; |FFT_module|pass~7                                                  ; combout          ;
+; |FFT_module|pass~8                                                    ; |FFT_module|pass~8                                                  ; combout          ;
+; |FFT_module|RAw~2                                                     ; |FFT_module|RAw~2                                                   ; combout          ;
+; |FFT_module|RA_d[0]                                                   ; |FFT_module|RA_d[0]                                                 ; q                ;
+; |FFT_module|RAd[0]~18                                                 ; |FFT_module|RAd[0]~18                                               ; combout          ;
+; |FFT_module|RA_a[0]                                                   ; |FFT_module|RA_a[0]                                                 ; q                ;
+; |FFT_module|RAa~5                                                     ; |FFT_module|RAa~5                                                   ; combout          ;
+; |FFT_module|RB_a[1]                                                   ; |FFT_module|RB_a[1]                                                 ; q                ;
+; |FFT_module|RAa~6                                                     ; |FFT_module|RAa~6                                                   ; combout          ;
+; |FFT_module|RB_a[2]                                                   ; |FFT_module|RB_a[2]                                                 ; q                ;
+; |FFT_module|RAa~7                                                     ; |FFT_module|RAa~7                                                   ; combout          ;
+; |FFT_module|RB_a[3]                                                   ; |FFT_module|RB_a[3]                                                 ; q                ;
+; |FFT_module|RAa~8                                                     ; |FFT_module|RAa~8                                                   ; combout          ;
+; |FFT_module|RA_a[4]                                                   ; |FFT_module|RA_a[4]                                                 ; q                ;
+; |FFT_module|RAa~9                                                     ; |FFT_module|RAa~9                                                   ; combout          ;
+; |FFT_module|RB_d[0]                                                   ; |FFT_module|RB_d[0]                                                 ; q                ;
+; |FFT_module|RB_a[0]                                                   ; |FFT_module|RB_a[0]                                                 ; q                ;
+; |FFT_module|RB_a[4]                                                   ; |FFT_module|RB_a[4]                                                 ; q                ;
+; |FFT_module|RA_d[1]                                                   ; |FFT_module|RA_d[1]                                                 ; q                ;
+; |FFT_module|RB_d[1]                                                   ; |FFT_module|RB_d[1]                                                 ; q                ;
+; |FFT_module|RA_d[2]                                                   ; |FFT_module|RA_d[2]                                                 ; q                ;
+; |FFT_module|RB_d[2]                                                   ; |FFT_module|RB_d[2]                                                 ; q                ;
+; |FFT_module|RA_d[3]                                                   ; |FFT_module|RA_d[3]                                                 ; q                ;
+; |FFT_module|RB_d[3]                                                   ; |FFT_module|RB_d[3]                                                 ; q                ;
+; |FFT_module|RA_d[4]                                                   ; |FFT_module|RA_d[4]                                                 ; q                ;
+; |FFT_module|RB_d[4]                                                   ; |FFT_module|RB_d[4]                                                 ; q                ;
+; |FFT_module|RA_d[5]                                                   ; |FFT_module|RA_d[5]                                                 ; q                ;
+; |FFT_module|RB_d[5]                                                   ; |FFT_module|RB_d[5]                                                 ; q                ;
+; |FFT_module|RA_d[6]                                                   ; |FFT_module|RA_d[6]                                                 ; q                ;
+; |FFT_module|RB_d[6]                                                   ; |FFT_module|RB_d[6]                                                 ; q                ;
+; |FFT_module|RA_d[7]                                                   ; |FFT_module|RA_d[7]                                                 ; q                ;
+; |FFT_module|RB_d[7]                                                   ; |FFT_module|RB_d[7]                                                 ; q                ;
+; |FFT_module|RA_d[8]                                                   ; |FFT_module|RA_d[8]                                                 ; q                ;
+; |FFT_module|RB_d[8]                                                   ; |FFT_module|RB_d[8]                                                 ; q                ;
+; |FFT_module|RA_d[9]                                                   ; |FFT_module|RA_d[9]                                                 ; q                ;
+; |FFT_module|RB_d[9]                                                   ; |FFT_module|RB_d[9]                                                 ; q                ;
+; |FFT_module|RA_d[10]                                                  ; |FFT_module|RA_d[10]                                                ; q                ;
+; |FFT_module|RB_d[10]                                                  ; |FFT_module|RB_d[10]                                                ; q                ;
+; |FFT_module|RA_d[11]                                                  ; |FFT_module|RA_d[11]                                                ; q                ;
+; |FFT_module|RB_d[11]                                                  ; |FFT_module|RB_d[11]                                                ; q                ;
+; |FFT_module|RA_d[12]                                                  ; |FFT_module|RA_d[12]                                                ; q                ;
+; |FFT_module|RB_d[12]                                                  ; |FFT_module|RB_d[12]                                                ; q                ;
+; |FFT_module|RA_d[13]                                                  ; |FFT_module|RA_d[13]                                                ; q                ;
+; |FFT_module|RB_d[13]                                                  ; |FFT_module|RB_d[13]                                                ; q                ;
+; |FFT_module|RA_d[14]                                                  ; |FFT_module|RA_d[14]                                                ; q                ;
+; |FFT_module|RB_d[14]                                                  ; |FFT_module|RB_d[14]                                                ; q                ;
+; |FFT_module|RA_d[15]                                                  ; |FFT_module|RA_d[15]                                                ; q                ;
+; |FFT_module|RB_d[15]                                                  ; |FFT_module|RB_d[15]                                                ; q                ;
+; |FFT_module|RA_d[16]                                                  ; |FFT_module|RA_d[16]                                                ; q                ;
+; |FFT_module|RB_d[16]                                                  ; |FFT_module|RB_d[16]                                                ; q                ;
+; |FFT_module|RA_d[17]                                                  ; |FFT_module|RA_d[17]                                                ; q                ;
+; |FFT_module|RB_d[17]                                                  ; |FFT_module|RB_d[17]                                                ; q                ;
+; |FFT_module|state                                                     ; |FFT_module|state                                                   ; q                ;
+; |FFT_module|process_7~0                                               ; |FFT_module|process_7~0                                             ; combout          ;
+; |FFT_module|load_enable1                                              ; |FFT_module|load_enable1                                            ; q                ;
+; |FFT_module|process_4~0                                               ; |FFT_module|process_4~0                                             ; combout          ;
+; |FFT_module|Rw~3                                                      ; |FFT_module|Rw~3                                                    ; combout          ;
+; |FFT_module|ya[0]                                                     ; |FFT_module|ya[0]                                                   ; q                ;
+; |FFT_module|RA_d[0]~18                                                ; |FFT_module|RA_d[0]~18                                              ; combout          ;
+; |FFT_module|RA_a~2                                                    ; |FFT_module|RA_a~2                                                  ; combout          ;
+; |FFT_module|RB_a~5                                                    ; |FFT_module|RB_a~5                                                  ; combout          ;
+; |FFT_module|RB_a~6                                                    ; |FFT_module|RB_a~6                                                  ; combout          ;
+; |FFT_module|Add2~0                                                    ; |FFT_module|Add2~0                                                  ; combout          ;
+; |FFT_module|RB_a~7                                                    ; |FFT_module|RB_a~7                                                  ; combout          ;
+; |FFT_module|RA_a~3                                                    ; |FFT_module|RA_a~3                                                  ; combout          ;
+; |FFT_module|RB_a~8                                                    ; |FFT_module|RB_a~8                                                  ; combout          ;
+; |FFT_module|RB_a~9                                                    ; |FFT_module|RB_a~9                                                  ; combout          ;
+; |FFT_module|ya[1]                                                     ; |FFT_module|ya[1]                                                   ; q                ;
+; |FFT_module|ya[2]                                                     ; |FFT_module|ya[2]                                                   ; q                ;
+; |FFT_module|ya[3]                                                     ; |FFT_module|ya[3]                                                   ; q                ;
+; |FFT_module|ya[4]                                                     ; |FFT_module|ya[4]                                                   ; q                ;
+; |FFT_module|ya[5]                                                     ; |FFT_module|ya[5]                                                   ; q                ;
+; |FFT_module|ya[6]                                                     ; |FFT_module|ya[6]                                                   ; q                ;
+; |FFT_module|ya[7]                                                     ; |FFT_module|ya[7]                                                   ; q                ;
+; |FFT_module|ya[8]                                                     ; |FFT_module|ya[8]                                                   ; q                ;
+; |FFT_module|ya[9]                                                     ; |FFT_module|ya[9]                                                   ; q                ;
+; |FFT_module|ya[10]                                                    ; |FFT_module|ya[10]                                                  ; q                ;
+; |FFT_module|ya[11]                                                    ; |FFT_module|ya[11]                                                  ; q                ;
+; |FFT_module|ya[12]                                                    ; |FFT_module|ya[12]                                                  ; q                ;
+; |FFT_module|ya[13]                                                    ; |FFT_module|ya[13]                                                  ; q                ;
+; |FFT_module|ya[14]                                                    ; |FFT_module|ya[14]                                                  ; q                ;
+; |FFT_module|ya[15]                                                    ; |FFT_module|ya[15]                                                  ; q                ;
+; |FFT_module|ya[16]                                                    ; |FFT_module|ya[16]                                                  ; q                ;
+; |FFT_module|ya[17]                                                    ; |FFT_module|ya[17]                                                  ; q                ;
+; |FFT_module|state~2                                                   ; |FFT_module|state~2                                                 ; combout          ;
+; |FFT_module|xaQ[1]                                                    ; |FFT_module|xaQ[1]                                                  ; q                ;
+; |FFT_module|xbQ[1]                                                    ; |FFT_module|xbQ[1]                                                  ; q                ;
+; |FFT_module|xaQ[0]                                                    ; |FFT_module|xaQ[0]                                                  ; q                ;
+; |FFT_module|xbQ[0]                                                    ; |FFT_module|xbQ[0]                                                  ; q                ;
+; |FFT_module|xaQ[2]                                                    ; |FFT_module|xaQ[2]                                                  ; q                ;
+; |FFT_module|xbQ[2]                                                    ; |FFT_module|xbQ[2]                                                  ; q                ;
+; |FFT_module|xaQ[3]                                                    ; |FFT_module|xaQ[3]                                                  ; q                ;
+; |FFT_module|xbQ[3]                                                    ; |FFT_module|xbQ[3]                                                  ; q                ;
+; |FFT_module|xaQ[4]                                                    ; |FFT_module|xaQ[4]                                                  ; q                ;
+; |FFT_module|xbQ[4]                                                    ; |FFT_module|xbQ[4]                                                  ; q                ;
+; |FFT_module|xaQ[5]                                                    ; |FFT_module|xaQ[5]                                                  ; q                ;
+; |FFT_module|xbQ[5]                                                    ; |FFT_module|xbQ[5]                                                  ; q                ;
+; |FFT_module|xaQ[6]                                                    ; |FFT_module|xaQ[6]                                                  ; q                ;
+; |FFT_module|xbQ[6]                                                    ; |FFT_module|xbQ[6]                                                  ; q                ;
+; |FFT_module|xaQ[7]                                                    ; |FFT_module|xaQ[7]                                                  ; q                ;
+; |FFT_module|xbQ[7]                                                    ; |FFT_module|xbQ[7]                                                  ; q                ;
+; |FFT_module|xaQ[8]                                                    ; |FFT_module|xaQ[8]                                                  ; q                ;
+; |FFT_module|xbQ[8]                                                    ; |FFT_module|xbQ[8]                                                  ; q                ;
+; |FFT_module|xaI[1]                                                    ; |FFT_module|xaI[1]                                                  ; q                ;
+; |FFT_module|xbI[1]                                                    ; |FFT_module|xbI[1]                                                  ; q                ;
+; |FFT_module|xaI[0]                                                    ; |FFT_module|xaI[0]                                                  ; q                ;
+; |FFT_module|xbI[0]                                                    ; |FFT_module|xbI[0]                                                  ; q                ;
+; |FFT_module|xaI[2]                                                    ; |FFT_module|xaI[2]                                                  ; q                ;
+; |FFT_module|xbI[2]                                                    ; |FFT_module|xbI[2]                                                  ; q                ;
+; |FFT_module|xaI[3]                                                    ; |FFT_module|xaI[3]                                                  ; q                ;
+; |FFT_module|xbI[3]                                                    ; |FFT_module|xbI[3]                                                  ; q                ;
+; |FFT_module|xaI[4]                                                    ; |FFT_module|xaI[4]                                                  ; q                ;
+; |FFT_module|xbI[4]                                                    ; |FFT_module|xbI[4]                                                  ; q                ;
+; |FFT_module|xaI[5]                                                    ; |FFT_module|xaI[5]                                                  ; q                ;
+; |FFT_module|xbI[5]                                                    ; |FFT_module|xbI[5]                                                  ; q                ;
+; |FFT_module|xaI[6]                                                    ; |FFT_module|xaI[6]                                                  ; q                ;
+; |FFT_module|xbI[6]                                                    ; |FFT_module|xbI[6]                                                  ; q                ;
+; |FFT_module|xaI[7]                                                    ; |FFT_module|xaI[7]                                                  ; q                ;
+; |FFT_module|xbI[7]                                                    ; |FFT_module|xbI[7]                                                  ; q                ;
+; |FFT_module|xaI[8]                                                    ; |FFT_module|xaI[8]                                                  ; q                ;
+; |FFT_module|xbI[8]                                                    ; |FFT_module|xbI[8]                                                  ; q                ;
+; |FFT_module|xa[1]                                                     ; |FFT_module|xa[1]                                                   ; q                ;
+; |FFT_module|xb[1]                                                     ; |FFT_module|xb[1]                                                   ; q                ;
+; |FFT_module|xa[0]                                                     ; |FFT_module|xa[0]                                                   ; q                ;
+; |FFT_module|xb[0]                                                     ; |FFT_module|xb[0]                                                   ; q                ;
+; |FFT_module|xa[2]                                                     ; |FFT_module|xa[2]                                                   ; q                ;
+; |FFT_module|xb[2]                                                     ; |FFT_module|xb[2]                                                   ; q                ;
+; |FFT_module|xa[3]                                                     ; |FFT_module|xa[3]                                                   ; q                ;
+; |FFT_module|xb[3]                                                     ; |FFT_module|xb[3]                                                   ; q                ;
+; |FFT_module|xa[4]                                                     ; |FFT_module|xa[4]                                                   ; q                ;
+; |FFT_module|xb[4]                                                     ; |FFT_module|xb[4]                                                   ; q                ;
+; |FFT_module|xa[5]                                                     ; |FFT_module|xa[5]                                                   ; q                ;
+; |FFT_module|xb[5]                                                     ; |FFT_module|xb[5]                                                   ; q                ;
+; |FFT_module|xa[6]                                                     ; |FFT_module|xa[6]                                                   ; q                ;
+; |FFT_module|xb[6]                                                     ; |FFT_module|xb[6]                                                   ; q                ;
+; |FFT_module|xa[7]                                                     ; |FFT_module|xa[7]                                                   ; q                ;
+; |FFT_module|xb[7]                                                     ; |FFT_module|xb[7]                                                   ; q                ;
+; |FFT_module|xa[8]                                                     ; |FFT_module|xa[8]                                                   ; q                ;
+; |FFT_module|xb[8]                                                     ; |FFT_module|xb[8]                                                   ; q                ;
+; |FFT_module|xa[10]                                                    ; |FFT_module|xa[10]                                                  ; q                ;
+; |FFT_module|xb[10]                                                    ; |FFT_module|xb[10]                                                  ; q                ;
+; |FFT_module|xa[9]                                                     ; |FFT_module|xa[9]                                                   ; q                ;
+; |FFT_module|xb[9]                                                     ; |FFT_module|xb[9]                                                   ; q                ;
+; |FFT_module|xa[11]                                                    ; |FFT_module|xa[11]                                                  ; q                ;
+; |FFT_module|xb[11]                                                    ; |FFT_module|xb[11]                                                  ; q                ;
+; |FFT_module|xa[12]                                                    ; |FFT_module|xa[12]                                                  ; q                ;
+; |FFT_module|xb[12]                                                    ; |FFT_module|xb[12]                                                  ; q                ;
+; |FFT_module|xa[13]                                                    ; |FFT_module|xa[13]                                                  ; q                ;
+; |FFT_module|xb[13]                                                    ; |FFT_module|xb[13]                                                  ; q                ;
+; |FFT_module|xa[14]                                                    ; |FFT_module|xa[14]                                                  ; q                ;
+; |FFT_module|xb[14]                                                    ; |FFT_module|xb[14]                                                  ; q                ;
+; |FFT_module|xa[15]                                                    ; |FFT_module|xa[15]                                                  ; q                ;
+; |FFT_module|xb[15]                                                    ; |FFT_module|xb[15]                                                  ; q                ;
+; |FFT_module|xa[16]                                                    ; |FFT_module|xa[16]                                                  ; q                ;
+; |FFT_module|xb[16]                                                    ; |FFT_module|xb[16]                                                  ; q                ;
+; |FFT_module|xa[17]                                                    ; |FFT_module|xa[17]                                                  ; q                ;
+; |FFT_module|xb[17]                                                    ; |FFT_module|xb[17]                                                  ; q                ;
+; |FFT_module|xa~18                                                     ; |FFT_module|xa~18                                                   ; combout          ;
+; |FFT_module|xb~18                                                     ; |FFT_module|xb~18                                                   ; combout          ;
+; |FFT_module|xa~19                                                     ; |FFT_module|xa~19                                                   ; combout          ;
+; |FFT_module|xb~19                                                     ; |FFT_module|xb~19                                                   ; combout          ;
+; |FFT_module|Waddr[0]                                                  ; |FFT_module|Waddr[0]                                                ; q                ;
+; |FFT_module|Waddr[1]                                                  ; |FFT_module|Waddr[1]                                                ; q                ;
+; |FFT_module|Waddr[2]                                                  ; |FFT_module|Waddr[2]                                                ; q                ;
+; |FFT_module|Waddr[3]                                                  ; |FFT_module|Waddr[3]                                                ; q                ;
+; |FFT_module|xa~20                                                     ; |FFT_module|xa~20                                                   ; combout          ;
+; |FFT_module|xb~20                                                     ; |FFT_module|xb~20                                                   ; combout          ;
+; |FFT_module|xa~21                                                     ; |FFT_module|xa~21                                                   ; combout          ;
+; |FFT_module|xb~21                                                     ; |FFT_module|xb~21                                                   ; combout          ;
+; |FFT_module|xa~22                                                     ; |FFT_module|xa~22                                                   ; combout          ;
+; |FFT_module|xb~22                                                     ; |FFT_module|xb~22                                                   ; combout          ;
+; |FFT_module|xa~23                                                     ; |FFT_module|xa~23                                                   ; combout          ;
+; |FFT_module|xb~23                                                     ; |FFT_module|xb~23                                                   ; combout          ;
+; |FFT_module|xa~24                                                     ; |FFT_module|xa~24                                                   ; combout          ;
+; |FFT_module|xb~24                                                     ; |FFT_module|xb~24                                                   ; combout          ;
+; |FFT_module|xa~25                                                     ; |FFT_module|xa~25                                                   ; combout          ;
+; |FFT_module|xb~25                                                     ; |FFT_module|xb~25                                                   ; combout          ;
+; |FFT_module|xa~26                                                     ; |FFT_module|xa~26                                                   ; combout          ;
+; |FFT_module|xb~26                                                     ; |FFT_module|xb~26                                                   ; combout          ;
+; |FFT_module|xa~27                                                     ; |FFT_module|xa~27                                                   ; combout          ;
+; |FFT_module|xb~27                                                     ; |FFT_module|xb~27                                                   ; combout          ;
+; |FFT_module|xa~28                                                     ; |FFT_module|xa~28                                                   ; combout          ;
+; |FFT_module|xb~28                                                     ; |FFT_module|xb~28                                                   ; combout          ;
+; |FFT_module|xa~29                                                     ; |FFT_module|xa~29                                                   ; combout          ;
+; |FFT_module|xb~29                                                     ; |FFT_module|xb~29                                                   ; combout          ;
+; |FFT_module|xa~30                                                     ; |FFT_module|xa~30                                                   ; combout          ;
+; |FFT_module|xb~30                                                     ; |FFT_module|xb~30                                                   ; combout          ;
+; |FFT_module|xa~31                                                     ; |FFT_module|xa~31                                                   ; combout          ;
+; |FFT_module|xb~31                                                     ; |FFT_module|xb~31                                                   ; combout          ;
+; |FFT_module|xa~32                                                     ; |FFT_module|xa~32                                                   ; combout          ;
+; |FFT_module|xb~32                                                     ; |FFT_module|xb~32                                                   ; combout          ;
+; |FFT_module|xa~33                                                     ; |FFT_module|xa~33                                                   ; combout          ;
+; |FFT_module|xb~33                                                     ; |FFT_module|xb~33                                                   ; combout          ;
+; |FFT_module|xa~34                                                     ; |FFT_module|xa~34                                                   ; combout          ;
+; |FFT_module|xb~34                                                     ; |FFT_module|xb~34                                                   ; combout          ;
+; |FFT_module|xa~35                                                     ; |FFT_module|xa~35                                                   ; combout          ;
+; |FFT_module|xb~35                                                     ; |FFT_module|xb~35                                                   ; combout          ;
+; |FFT_module|LAw                                                       ; |FFT_module|LAw                                                     ; q                ;
+; |FFT_module|LBw                                                       ; |FFT_module|LBw                                                     ; q                ;
+; |FFT_module|LAd[1]                                                    ; |FFT_module|LAd[1]                                                  ; q                ;
+; |FFT_module|LAa[0]                                                    ; |FFT_module|LAa[0]                                                  ; q                ;
+; |FFT_module|LAa[1]                                                    ; |FFT_module|LAa[1]                                                  ; q                ;
+; |FFT_module|LAa[2]                                                    ; |FFT_module|LAa[2]                                                  ; q                ;
+; |FFT_module|LAa[3]                                                    ; |FFT_module|LAa[3]                                                  ; q                ;
+; |FFT_module|LAa[4]                                                    ; |FFT_module|LAa[4]                                                  ; q                ;
+; |FFT_module|LBd[1]                                                    ; |FFT_module|LBd[1]                                                  ; q                ;
+; |FFT_module|LBa[0]                                                    ; |FFT_module|LBa[0]                                                  ; q                ;
+; |FFT_module|LBa[1]                                                    ; |FFT_module|LBa[1]                                                  ; q                ;
+; |FFT_module|LBa[2]                                                    ; |FFT_module|LBa[2]                                                  ; q                ;
+; |FFT_module|LBa[3]                                                    ; |FFT_module|LBa[3]                                                  ; q                ;
+; |FFT_module|LBa[4]                                                    ; |FFT_module|LBa[4]                                                  ; q                ;
+; |FFT_module|LAd[0]                                                    ; |FFT_module|LAd[0]                                                  ; q                ;
+; |FFT_module|LBd[0]                                                    ; |FFT_module|LBd[0]                                                  ; q                ;
+; |FFT_module|Waddr_b[0]                                                ; |FFT_module|Waddr_b[0]                                              ; q                ;
+; |FFT_module|Waddr_b[1]                                                ; |FFT_module|Waddr_b[1]                                              ; q                ;
+; |FFT_module|Waddr_b[2]                                                ; |FFT_module|Waddr_b[2]                                              ; q                ;
+; |FFT_module|Waddr_b[3]                                                ; |FFT_module|Waddr_b[3]                                              ; q                ;
+; |FFT_module|LAd[2]                                                    ; |FFT_module|LAd[2]                                                  ; q                ;
+; |FFT_module|LBd[2]                                                    ; |FFT_module|LBd[2]                                                  ; q                ;
+; |FFT_module|LAd[3]                                                    ; |FFT_module|LAd[3]                                                  ; q                ;
+; |FFT_module|LBd[3]                                                    ; |FFT_module|LBd[3]                                                  ; q                ;
+; |FFT_module|LAd[4]                                                    ; |FFT_module|LAd[4]                                                  ; q                ;
+; |FFT_module|LBd[4]                                                    ; |FFT_module|LBd[4]                                                  ; q                ;
+; |FFT_module|LAd[5]                                                    ; |FFT_module|LAd[5]                                                  ; q                ;
+; |FFT_module|LBd[5]                                                    ; |FFT_module|LBd[5]                                                  ; q                ;
+; |FFT_module|LAd[6]                                                    ; |FFT_module|LAd[6]                                                  ; q                ;
+; |FFT_module|LBd[6]                                                    ; |FFT_module|LBd[6]                                                  ; q                ;
+; |FFT_module|LAd[7]                                                    ; |FFT_module|LAd[7]                                                  ; q                ;
+; |FFT_module|LBd[7]                                                    ; |FFT_module|LBd[7]                                                  ; q                ;
+; |FFT_module|LAd[8]                                                    ; |FFT_module|LAd[8]                                                  ; q                ;
+; |FFT_module|LBd[8]                                                    ; |FFT_module|LBd[8]                                                  ; q                ;
+; |FFT_module|LAd[10]                                                   ; |FFT_module|LAd[10]                                                 ; q                ;
+; |FFT_module|LBd[10]                                                   ; |FFT_module|LBd[10]                                                 ; q                ;
+; |FFT_module|LAd[9]                                                    ; |FFT_module|LAd[9]                                                  ; q                ;
+; |FFT_module|LBd[9]                                                    ; |FFT_module|LBd[9]                                                  ; q                ;
+; |FFT_module|LAd[11]                                                   ; |FFT_module|LAd[11]                                                 ; q                ;
+; |FFT_module|LBd[11]                                                   ; |FFT_module|LBd[11]                                                 ; q                ;
+; |FFT_module|LAd[12]                                                   ; |FFT_module|LAd[12]                                                 ; q                ;
+; |FFT_module|LBd[12]                                                   ; |FFT_module|LBd[12]                                                 ; q                ;
+; |FFT_module|LAd[13]                                                   ; |FFT_module|LAd[13]                                                 ; q                ;
+; |FFT_module|LBd[13]                                                   ; |FFT_module|LBd[13]                                                 ; q                ;
+; |FFT_module|LAd[14]                                                   ; |FFT_module|LAd[14]                                                 ; q                ;
+; |FFT_module|LBd[14]                                                   ; |FFT_module|LBd[14]                                                 ; q                ;
+; |FFT_module|LAd[15]                                                   ; |FFT_module|LAd[15]                                                 ; q                ;
+; |FFT_module|LBd[15]                                                   ; |FFT_module|LBd[15]                                                 ; q                ;
+; |FFT_module|LAd[16]                                                   ; |FFT_module|LAd[16]                                                 ; q                ;
+; |FFT_module|LBd[16]                                                   ; |FFT_module|LBd[16]                                                 ; q                ;
+; |FFT_module|LAd[17]                                                   ; |FFT_module|LAd[17]                                                 ; q                ;
+; |FFT_module|LBd[17]                                                   ; |FFT_module|LBd[17]                                                 ; q                ;
+; |FFT_module|LAw~1                                                     ; |FFT_module|LAw~1                                                   ; combout          ;
+; |FFT_module|LBw~2                                                     ; |FFT_module|LBw~2                                                   ; combout          ;
+; |FFT_module|LA_d[1]                                                   ; |FFT_module|LA_d[1]                                                 ; q                ;
+; |FFT_module|LAd~36                                                    ; |FFT_module|LAd~36                                                  ; combout          ;
+; |FFT_module|LAd[4]~37                                                 ; |FFT_module|LAd[4]~37                                               ; combout          ;
+; |FFT_module|LA_a[0]                                                   ; |FFT_module|LA_a[0]                                                 ; q                ;
+; |FFT_module|LAa~10                                                    ; |FFT_module|LAa~10                                                  ; combout          ;
+; |FFT_module|LB_a[1]                                                   ; |FFT_module|LB_a[1]                                                 ; q                ;
+; |FFT_module|LAa~11                                                    ; |FFT_module|LAa~11                                                  ; combout          ;
+; |FFT_module|LB_a[2]                                                   ; |FFT_module|LB_a[2]                                                 ; q                ;
+; |FFT_module|LAa~12                                                    ; |FFT_module|LAa~12                                                  ; combout          ;
+; |FFT_module|LB_a[3]                                                   ; |FFT_module|LB_a[3]                                                 ; q                ;
+; |FFT_module|LAa~13                                                    ; |FFT_module|LAa~13                                                  ; combout          ;
+; |FFT_module|LA_a[4]                                                   ; |FFT_module|LA_a[4]                                                 ; q                ;
+; |FFT_module|LAa~14                                                    ; |FFT_module|LAa~14                                                  ; combout          ;
+; |FFT_module|LB_d[1]                                                   ; |FFT_module|LB_d[1]                                                 ; q                ;
+; |FFT_module|LB_a[0]                                                   ; |FFT_module|LB_a[0]                                                 ; q                ;
+; |FFT_module|LB_a[4]                                                   ; |FFT_module|LB_a[4]                                                 ; q                ;
+; |FFT_module|LA_d[0]                                                   ; |FFT_module|LA_d[0]                                                 ; q                ;
+; |FFT_module|LAd~38                                                    ; |FFT_module|LAd~38                                                  ; combout          ;
+; |FFT_module|LB_d[0]                                                   ; |FFT_module|LB_d[0]                                                 ; q                ;
+; |FFT_module|Waddr_a[0]                                                ; |FFT_module|Waddr_a[0]                                              ; q                ;
+; |FFT_module|Waddr_a[1]                                                ; |FFT_module|Waddr_a[1]                                              ; q                ;
+; |FFT_module|Waddr_a[2]                                                ; |FFT_module|Waddr_a[2]                                              ; q                ;
+; |FFT_module|Waddr_a[3]                                                ; |FFT_module|Waddr_a[3]                                              ; q                ;
+; |FFT_module|LA_d[2]                                                   ; |FFT_module|LA_d[2]                                                 ; q                ;
+; |FFT_module|LAd~39                                                    ; |FFT_module|LAd~39                                                  ; combout          ;
+; |FFT_module|LB_d[2]                                                   ; |FFT_module|LB_d[2]                                                 ; q                ;
+; |FFT_module|LA_d[3]                                                   ; |FFT_module|LA_d[3]                                                 ; q                ;
+; |FFT_module|LAd~40                                                    ; |FFT_module|LAd~40                                                  ; combout          ;
+; |FFT_module|LB_d[3]                                                   ; |FFT_module|LB_d[3]                                                 ; q                ;
+; |FFT_module|LA_d[4]                                                   ; |FFT_module|LA_d[4]                                                 ; q                ;
+; |FFT_module|LAd~41                                                    ; |FFT_module|LAd~41                                                  ; combout          ;
+; |FFT_module|LB_d[4]                                                   ; |FFT_module|LB_d[4]                                                 ; q                ;
+; |FFT_module|LA_d[5]                                                   ; |FFT_module|LA_d[5]                                                 ; q                ;
+; |FFT_module|LAd~42                                                    ; |FFT_module|LAd~42                                                  ; combout          ;
+; |FFT_module|LB_d[5]                                                   ; |FFT_module|LB_d[5]                                                 ; q                ;
+; |FFT_module|LA_d[6]                                                   ; |FFT_module|LA_d[6]                                                 ; q                ;
+; |FFT_module|LAd~43                                                    ; |FFT_module|LAd~43                                                  ; combout          ;
+; |FFT_module|LB_d[6]                                                   ; |FFT_module|LB_d[6]                                                 ; q                ;
+; |FFT_module|LA_d[7]                                                   ; |FFT_module|LA_d[7]                                                 ; q                ;
+; |FFT_module|LAd~44                                                    ; |FFT_module|LAd~44                                                  ; combout          ;
+; |FFT_module|LB_d[7]                                                   ; |FFT_module|LB_d[7]                                                 ; q                ;
+; |FFT_module|LA_d[8]                                                   ; |FFT_module|LA_d[8]                                                 ; q                ;
+; |FFT_module|LAd~45                                                    ; |FFT_module|LAd~45                                                  ; combout          ;
+; |FFT_module|LB_d[8]                                                   ; |FFT_module|LB_d[8]                                                 ; q                ;
+; |FFT_module|LA_d[10]                                                  ; |FFT_module|LA_d[10]                                                ; q                ;
+; |FFT_module|LAd~46                                                    ; |FFT_module|LAd~46                                                  ; combout          ;
+; |FFT_module|LB_d[10]                                                  ; |FFT_module|LB_d[10]                                                ; q                ;
+; |FFT_module|LA_d[9]                                                   ; |FFT_module|LA_d[9]                                                 ; q                ;
+; |FFT_module|LAd~47                                                    ; |FFT_module|LAd~47                                                  ; combout          ;
+; |FFT_module|LB_d[9]                                                   ; |FFT_module|LB_d[9]                                                 ; q                ;
+; |FFT_module|LA_d[11]                                                  ; |FFT_module|LA_d[11]                                                ; q                ;
+; |FFT_module|LAd~48                                                    ; |FFT_module|LAd~48                                                  ; combout          ;
+; |FFT_module|LB_d[11]                                                  ; |FFT_module|LB_d[11]                                                ; q                ;
+; |FFT_module|LA_d[12]                                                  ; |FFT_module|LA_d[12]                                                ; q                ;
+; |FFT_module|LAd~49                                                    ; |FFT_module|LAd~49                                                  ; combout          ;
+; |FFT_module|LB_d[12]                                                  ; |FFT_module|LB_d[12]                                                ; q                ;
+; |FFT_module|LA_d[13]                                                  ; |FFT_module|LA_d[13]                                                ; q                ;
+; |FFT_module|LAd~50                                                    ; |FFT_module|LAd~50                                                  ; combout          ;
+; |FFT_module|LB_d[13]                                                  ; |FFT_module|LB_d[13]                                                ; q                ;
+; |FFT_module|LA_d[14]                                                  ; |FFT_module|LA_d[14]                                                ; q                ;
+; |FFT_module|LAd~51                                                    ; |FFT_module|LAd~51                                                  ; combout          ;
+; |FFT_module|LB_d[14]                                                  ; |FFT_module|LB_d[14]                                                ; q                ;
+; |FFT_module|LA_d[15]                                                  ; |FFT_module|LA_d[15]                                                ; q                ;
+; |FFT_module|LAd~52                                                    ; |FFT_module|LAd~52                                                  ; combout          ;
+; |FFT_module|LB_d[15]                                                  ; |FFT_module|LB_d[15]                                                ; q                ;
+; |FFT_module|LA_d[16]                                                  ; |FFT_module|LA_d[16]                                                ; q                ;
+; |FFT_module|LAd~53                                                    ; |FFT_module|LAd~53                                                  ; combout          ;
+; |FFT_module|LB_d[16]                                                  ; |FFT_module|LB_d[16]                                                ; q                ;
+; |FFT_module|LA_d[17]                                                  ; |FFT_module|LA_d[17]                                                ; q                ;
+; |FFT_module|LAd~54                                                    ; |FFT_module|LAd~54                                                  ; combout          ;
+; |FFT_module|LB_d[17]                                                  ; |FFT_module|LB_d[17]                                                ; q                ;
+; |FFT_module|Lw~3                                                      ; |FFT_module|Lw~3                                                    ; combout          ;
+; |FFT_module|LA_d[8]~18                                                ; |FFT_module|LA_d[8]~18                                              ; combout          ;
+; |FFT_module|LA_a~2                                                    ; |FFT_module|LA_a~2                                                  ; combout          ;
+; |FFT_module|LB_a~5                                                    ; |FFT_module|LB_a~5                                                  ; combout          ;
+; |FFT_module|LB_a~6                                                    ; |FFT_module|LB_a~6                                                  ; combout          ;
+; |FFT_module|LB_a~7                                                    ; |FFT_module|LB_a~7                                                  ; combout          ;
+; |FFT_module|LA_a~3                                                    ; |FFT_module|LA_a~3                                                  ; combout          ;
+; |FFT_module|LB_a~8                                                    ; |FFT_module|LB_a~8                                                  ; combout          ;
+; |FFT_module|LB_a~9                                                    ; |FFT_module|LB_a~9                                                  ; combout          ;
+; |FFT_module|wcnt[1]                                                   ; |FFT_module|wcnt[1]                                                 ; q                ;
+; |FFT_module|wcnt[3]                                                   ; |FFT_module|wcnt[3]                                                 ; q                ;
+; |FFT_module|Equal1~0                                                  ; |FFT_module|Equal1~0                                                ; combout          ;
+; |FFT_module|wcnt[0]                                                   ; |FFT_module|wcnt[0]                                                 ; q                ;
+; |FFT_module|wcnt[2]                                                   ; |FFT_module|wcnt[2]                                                 ; q                ;
+; |FFT_module|Equal1~1                                                  ; |FFT_module|Equal1~1                                                ; combout          ;
+; |FFT_module|Equal0~0                                                  ; |FFT_module|Equal0~0                                                ; combout          ;
+; |FFT_module|process_11~0                                              ; |FFT_module|process_11~0                                            ; combout          ;
+; |FFT_module|wmax[1]~0                                                 ; |FFT_module|wmax[1]~0                                               ; combout          ;
+; |FFT_module|wcnt~6                                                    ; |FFT_module|wcnt~6                                                  ; combout          ;
+; |FFT_module|Add3~0                                                    ; |FFT_module|Add3~0                                                  ; combout          ;
+; |FFT_module|wcnt~7                                                    ; |FFT_module|wcnt~7                                                  ; combout          ;
+; |FFT_module|wcnt~8                                                    ; |FFT_module|wcnt~8                                                  ; combout          ;
+; |FFT_module|wcnt~9                                                    ; |FFT_module|wcnt~9                                                  ; combout          ;
+; |FFT_module|done~output                                               ; |FFT_module|done~output                                             ; o                ;
+; |FFT_module|done                                                      ; |FFT_module|done                                                    ; padout           ;
+; |FFT_module|unload_valid~output                                       ; |FFT_module|unload_valid~output                                     ; o                ;
+; |FFT_module|unload_valid                                              ; |FFT_module|unload_valid                                            ; padout           ;
+; |FFT_module|outdata[0]~output                                         ; |FFT_module|outdata[0]~output                                       ; o                ;
+; |FFT_module|outdata[0]                                                ; |FFT_module|outdata[0]                                              ; padout           ;
+; |FFT_module|outdata[1]~output                                         ; |FFT_module|outdata[1]~output                                       ; o                ;
+; |FFT_module|outdata[1]                                                ; |FFT_module|outdata[1]                                              ; padout           ;
+; |FFT_module|outdata[2]~output                                         ; |FFT_module|outdata[2]~output                                       ; o                ;
+; |FFT_module|outdata[2]                                                ; |FFT_module|outdata[2]                                              ; padout           ;
+; |FFT_module|outdata[3]~output                                         ; |FFT_module|outdata[3]~output                                       ; o                ;
+; |FFT_module|outdata[3]                                                ; |FFT_module|outdata[3]                                              ; padout           ;
+; |FFT_module|outdata[4]~output                                         ; |FFT_module|outdata[4]~output                                       ; o                ;
+; |FFT_module|outdata[4]                                                ; |FFT_module|outdata[4]                                              ; padout           ;
+; |FFT_module|outdata[5]~output                                         ; |FFT_module|outdata[5]~output                                       ; o                ;
+; |FFT_module|outdata[5]                                                ; |FFT_module|outdata[5]                                              ; padout           ;
+; |FFT_module|outdata[6]~output                                         ; |FFT_module|outdata[6]~output                                       ; o                ;
+; |FFT_module|outdata[6]                                                ; |FFT_module|outdata[6]                                              ; padout           ;
+; |FFT_module|outdata[7]~output                                         ; |FFT_module|outdata[7]~output                                       ; o                ;
+; |FFT_module|outdata[7]                                                ; |FFT_module|outdata[7]                                              ; padout           ;
+; |FFT_module|outdata[8]~output                                         ; |FFT_module|outdata[8]~output                                       ; o                ;
+; |FFT_module|outdata[8]                                                ; |FFT_module|outdata[8]                                              ; padout           ;
+; |FFT_module|outdata[9]~output                                         ; |FFT_module|outdata[9]~output                                       ; o                ;
+; |FFT_module|outdata[9]                                                ; |FFT_module|outdata[9]                                              ; padout           ;
+; |FFT_module|outdata[10]~output                                        ; |FFT_module|outdata[10]~output                                      ; o                ;
+; |FFT_module|outdata[10]                                               ; |FFT_module|outdata[10]                                             ; padout           ;
+; |FFT_module|outdata[11]~output                                        ; |FFT_module|outdata[11]~output                                      ; o                ;
+; |FFT_module|outdata[11]                                               ; |FFT_module|outdata[11]                                             ; padout           ;
+; |FFT_module|outdata[12]~output                                        ; |FFT_module|outdata[12]~output                                      ; o                ;
+; |FFT_module|outdata[12]                                               ; |FFT_module|outdata[12]                                             ; padout           ;
+; |FFT_module|outdata[13]~output                                        ; |FFT_module|outdata[13]~output                                      ; o                ;
+; |FFT_module|outdata[13]                                               ; |FFT_module|outdata[13]                                             ; padout           ;
+; |FFT_module|outdata[14]~output                                        ; |FFT_module|outdata[14]~output                                      ; o                ;
+; |FFT_module|outdata[14]                                               ; |FFT_module|outdata[14]                                             ; padout           ;
+; |FFT_module|clk~input                                                 ; |FFT_module|clk~input                                               ; o                ;
+; |FFT_module|clk                                                       ; |FFT_module|clk                                                     ; padout           ;
+; |FFT_module|unload_enable~input                                       ; |FFT_module|unload_enable~input                                     ; o                ;
+; |FFT_module|unload_enable                                             ; |FFT_module|unload_enable                                           ; padout           ;
+; |FFT_module|load_enable~input                                         ; |FFT_module|load_enable~input                                       ; o                ;
+; |FFT_module|load_enable                                               ; |FFT_module|load_enable                                             ; padout           ;
+; |FFT_module|unload_count[4]~input                                     ; |FFT_module|unload_count[4]~input                                   ; o                ;
+; |FFT_module|unload_count[4]                                           ; |FFT_module|unload_count[4]                                         ; padout           ;
+; |FFT_module|unload_count[3]~input                                     ; |FFT_module|unload_count[3]~input                                   ; o                ;
+; |FFT_module|unload_count[3]                                           ; |FFT_module|unload_count[3]                                         ; padout           ;
+; |FFT_module|unload_count[2]~input                                     ; |FFT_module|unload_count[2]~input                                   ; o                ;
+; |FFT_module|unload_count[2]                                           ; |FFT_module|unload_count[2]                                         ; padout           ;
+; |FFT_module|unload_count[1]~input                                     ; |FFT_module|unload_count[1]~input                                   ; o                ;
+; |FFT_module|unload_count[1]                                           ; |FFT_module|unload_count[1]                                         ; padout           ;
+; |FFT_module|unload_count[0]~input                                     ; |FFT_module|unload_count[0]~input                                   ; o                ;
+; |FFT_module|unload_count[0]                                           ; |FFT_module|unload_count[0]                                         ; padout           ;
+; |FFT_module|indata[1]~input                                           ; |FFT_module|indata[1]~input                                         ; o                ;
+; |FFT_module|indata[1]                                                 ; |FFT_module|indata[1]                                               ; padout           ;
+; |FFT_module|load_count[0]~input                                       ; |FFT_module|load_count[0]~input                                     ; o                ;
+; |FFT_module|load_count[0]                                             ; |FFT_module|load_count[0]                                           ; padout           ;
+; |FFT_module|load_count[1]~input                                       ; |FFT_module|load_count[1]~input                                     ; o                ;
+; |FFT_module|load_count[1]                                             ; |FFT_module|load_count[1]                                           ; padout           ;
+; |FFT_module|load_count[2]~input                                       ; |FFT_module|load_count[2]~input                                     ; o                ;
+; |FFT_module|load_count[2]                                             ; |FFT_module|load_count[2]                                           ; padout           ;
+; |FFT_module|load_count[3]~input                                       ; |FFT_module|load_count[3]~input                                     ; o                ;
+; |FFT_module|load_count[3]                                             ; |FFT_module|load_count[3]                                           ; padout           ;
+; |FFT_module|load_count[4]~input                                       ; |FFT_module|load_count[4]~input                                     ; o                ;
+; |FFT_module|load_count[4]                                             ; |FFT_module|load_count[4]                                           ; padout           ;
+; |FFT_module|indata[2]~input                                           ; |FFT_module|indata[2]~input                                         ; o                ;
+; |FFT_module|indata[2]                                                 ; |FFT_module|indata[2]                                               ; padout           ;
+; |FFT_module|indata[3]~input                                           ; |FFT_module|indata[3]~input                                         ; o                ;
+; |FFT_module|indata[3]                                                 ; |FFT_module|indata[3]                                               ; padout           ;
+; |FFT_module|indata[4]~input                                           ; |FFT_module|indata[4]~input                                         ; o                ;
+; |FFT_module|indata[4]                                                 ; |FFT_module|indata[4]                                               ; padout           ;
+; |FFT_module|indata[5]~input                                           ; |FFT_module|indata[5]~input                                         ; o                ;
+; |FFT_module|indata[5]                                                 ; |FFT_module|indata[5]                                               ; padout           ;
+; |FFT_module|indata[6]~input                                           ; |FFT_module|indata[6]~input                                         ; o                ;
+; |FFT_module|indata[6]                                                 ; |FFT_module|indata[6]                                               ; padout           ;
+; |FFT_module|indata[7]~input                                           ; |FFT_module|indata[7]~input                                         ; o                ;
+; |FFT_module|indata[7]                                                 ; |FFT_module|indata[7]                                               ; padout           ;
+; |FFT_module|indata[8]~input                                           ; |FFT_module|indata[8]~input                                         ; o                ;
+; |FFT_module|indata[8]                                                 ; |FFT_module|indata[8]                                               ; padout           ;
+; |FFT_module|indata[10]~input                                          ; |FFT_module|indata[10]~input                                        ; o                ;
+; |FFT_module|indata[10]                                                ; |FFT_module|indata[10]                                              ; padout           ;
+; |FFT_module|indata[11]~input                                          ; |FFT_module|indata[11]~input                                        ; o                ;
+; |FFT_module|indata[11]                                                ; |FFT_module|indata[11]                                              ; padout           ;
+; |FFT_module|indata[12]~input                                          ; |FFT_module|indata[12]~input                                        ; o                ;
+; |FFT_module|indata[12]                                                ; |FFT_module|indata[12]                                              ; padout           ;
+; |FFT_module|indata[13]~input                                          ; |FFT_module|indata[13]~input                                        ; o                ;
+; |FFT_module|indata[13]                                                ; |FFT_module|indata[13]                                              ; padout           ;
+; |FFT_module|indata[14]~input                                          ; |FFT_module|indata[14]~input                                        ; o                ;
+; |FFT_module|indata[14]                                                ; |FFT_module|indata[14]                                              ; padout           ;
+; |FFT_module|indata[15]~input                                          ; |FFT_module|indata[15]~input                                        ; o                ;
+; |FFT_module|indata[15]                                                ; |FFT_module|indata[15]                                              ; padout           ;
+; |FFT_module|indata[16]~input                                          ; |FFT_module|indata[16]~input                                        ; o                ;
+; |FFT_module|indata[16]                                                ; |FFT_module|indata[16]                                              ; padout           ;
+; |FFT_module|indata[17]~input                                          ; |FFT_module|indata[17]~input                                        ; o                ;
+; |FFT_module|indata[17]                                                ; |FFT_module|indata[17]                                              ; padout           ;
+; |FFT_module|clk~inputclkctrl                                          ; |FFT_module|clk~inputclkctrl                                        ; outclk           ;
+; |FFT_module|outdata[0]~reg0feeder                                     ; |FFT_module|outdata[0]~reg0feeder                                   ; combout          ;
+; |FFT_module|outdata[2]~reg0feeder                                     ; |FFT_module|outdata[2]~reg0feeder                                   ; combout          ;
+; |FFT_module|outdata[5]~reg0feeder                                     ; |FFT_module|outdata[5]~reg0feeder                                   ; combout          ;
+; |FFT_module|outdata[6]~reg0feeder                                     ; |FFT_module|outdata[6]~reg0feeder                                   ; combout          ;
+; |FFT_module|outdata[7]~reg0feeder                                     ; |FFT_module|outdata[7]~reg0feeder                                   ; combout          ;
+; |FFT_module|outdata[8]~reg0feeder                                     ; |FFT_module|outdata[8]~reg0feeder                                   ; combout          ;
+; |FFT_module|outdata[10]~reg0feeder                                    ; |FFT_module|outdata[10]~reg0feeder                                  ; combout          ;
+; |FFT_module|outdata[12]~reg0feeder                                    ; |FFT_module|outdata[12]~reg0feeder                                  ; combout          ;
+; |FFT_module|outdata[13]~reg0feeder                                    ; |FFT_module|outdata[13]~reg0feeder                                  ; combout          ;
+; |FFT_module|outdata[15]~reg0feeder                                    ; |FFT_module|outdata[15]~reg0feeder                                  ; combout          ;
+; |FFT_module|outdata[17]~reg0feeder                                    ; |FFT_module|outdata[17]~reg0feeder                                  ; combout          ;
+; |FFT_module|Waddr_a[0]~feeder                                         ; |FFT_module|Waddr_a[0]~feeder                                       ; combout          ;
+; |FFT_module|Waddr_a[2]~feeder                                         ; |FFT_module|Waddr_a[2]~feeder                                       ; combout          ;
+; |FFT_module|Waddr_a[3]~feeder                                         ; |FFT_module|Waddr_a[3]~feeder                                       ; combout          ;
+; |FFT_module|Waddr_a[1]~feeder                                         ; |FFT_module|Waddr_a[1]~feeder                                       ; combout          ;
+; |FFT_module|RB_d[0]~feeder                                            ; |FFT_module|RB_d[0]~feeder                                          ; combout          ;
+; |FFT_module|LB_d[0]~feeder                                            ; |FFT_module|LB_d[0]~feeder                                          ; combout          ;
+; |FFT_module|RB_d[2]~feeder                                            ; |FFT_module|RB_d[2]~feeder                                          ; combout          ;
+; |FFT_module|LB_d[2]~feeder                                            ; |FFT_module|LB_d[2]~feeder                                          ; combout          ;
+; |FFT_module|RB_d[3]~feeder                                            ; |FFT_module|RB_d[3]~feeder                                          ; combout          ;
+; |FFT_module|LB_d[3]~feeder                                            ; |FFT_module|LB_d[3]~feeder                                          ; combout          ;
+; |FFT_module|RB_d[4]~feeder                                            ; |FFT_module|RB_d[4]~feeder                                          ; combout          ;
+; |FFT_module|LB_d[4]~feeder                                            ; |FFT_module|LB_d[4]~feeder                                          ; combout          ;
+; |FFT_module|LB_d[5]~feeder                                            ; |FFT_module|LB_d[5]~feeder                                          ; combout          ;
+; |FFT_module|RB_d[6]~feeder                                            ; |FFT_module|RB_d[6]~feeder                                          ; combout          ;
+; |FFT_module|LB_d[6]~feeder                                            ; |FFT_module|LB_d[6]~feeder                                          ; combout          ;
+; |FFT_module|RB_d[8]~feeder                                            ; |FFT_module|RB_d[8]~feeder                                          ; combout          ;
+; |FFT_module|RB_d[9]~feeder                                            ; |FFT_module|RB_d[9]~feeder                                          ; combout          ;
+; |FFT_module|LB_d[9]~feeder                                            ; |FFT_module|LB_d[9]~feeder                                          ; combout          ;
+; |FFT_module|RB_d[11]~feeder                                           ; |FFT_module|RB_d[11]~feeder                                         ; combout          ;
+; |FFT_module|RB_d[12]~feeder                                           ; |FFT_module|RB_d[12]~feeder                                         ; combout          ;
+; |FFT_module|RB_d[14]~feeder                                           ; |FFT_module|RB_d[14]~feeder                                         ; combout          ;
+; |FFT_module|LB_d[14]~feeder                                           ; |FFT_module|LB_d[14]~feeder                                         ; combout          ;
+; |FFT_module|RB_d[15]~feeder                                           ; |FFT_module|RB_d[15]~feeder                                         ; combout          ;
+; |FFT_module|LB_d[15]~feeder                                           ; |FFT_module|LB_d[15]~feeder                                         ; combout          ;
+; |FFT_module|RB_d[16]~feeder                                           ; |FFT_module|RB_d[16]~feeder                                         ; combout          ;
+; |FFT_module|LB_d[16]~feeder                                           ; |FFT_module|LB_d[16]~feeder                                         ; combout          ;
+; |FFT_module|LB_d[17]~feeder                                           ; |FFT_module|LB_d[17]~feeder                                         ; combout          ;
+; |FFT_module|ya[1]~feeder                                              ; |FFT_module|ya[1]~feeder                                            ; combout          ;
+; |FFT_module|ya[2]~feeder                                              ; |FFT_module|ya[2]~feeder                                            ; combout          ;
+; |FFT_module|ya[3]~feeder                                              ; |FFT_module|ya[3]~feeder                                            ; combout          ;
+; |FFT_module|ya[5]~feeder                                              ; |FFT_module|ya[5]~feeder                                            ; combout          ;
+; |FFT_module|ya[6]~feeder                                              ; |FFT_module|ya[6]~feeder                                            ; combout          ;
+; |FFT_module|ya[7]~feeder                                              ; |FFT_module|ya[7]~feeder                                            ; combout          ;
+; |FFT_module|ya[8]~feeder                                              ; |FFT_module|ya[8]~feeder                                            ; combout          ;
+; |FFT_module|ya[12]~feeder                                             ; |FFT_module|ya[12]~feeder                                           ; combout          ;
+; |FFT_module|ya[13]~feeder                                             ; |FFT_module|ya[13]~feeder                                           ; combout          ;
+; |FFT_module|ya[14]~feeder                                             ; |FFT_module|ya[14]~feeder                                           ; combout          ;
+; |FFT_module|ya[16]~feeder                                             ; |FFT_module|ya[16]~feeder                                           ; combout          ;
+; |FFT_module|ya[17]~feeder                                             ; |FFT_module|ya[17]~feeder                                           ; combout          ;
+; |FFT_module|unload_valid~reg0feeder                                   ; |FFT_module|unload_valid~reg0feeder                                 ; combout          ;
+; |FFT_module|unload_enable2~feeder                                     ; |FFT_module|unload_enable2~feeder                                   ; combout          ;
+; |FFT_module|RAd[0]~feeder                                             ; |FFT_module|RAd[0]~feeder                                           ; combout          ;
+; |FFT_module|RBa[1]~feeder                                             ; |FFT_module|RBa[1]~feeder                                           ; combout          ;
+; |FFT_module|RBa[2]~feeder                                             ; |FFT_module|RBa[2]~feeder                                           ; combout          ;
+; |FFT_module|RBd[0]~feeder                                             ; |FFT_module|RBd[0]~feeder                                           ; combout          ;
+; |FFT_module|RBa[0]~feeder                                             ; |FFT_module|RBa[0]~feeder                                           ; combout          ;
+; |FFT_module|RBa[4]~feeder                                             ; |FFT_module|RBa[4]~feeder                                           ; combout          ;
+; |FFT_module|RBd[1]~feeder                                             ; |FFT_module|RBd[1]~feeder                                           ; combout          ;
+; |FFT_module|RAd[2]~feeder                                             ; |FFT_module|RAd[2]~feeder                                           ; combout          ;
+; |FFT_module|RBd[2]~feeder                                             ; |FFT_module|RBd[2]~feeder                                           ; combout          ;
+; |FFT_module|RAd[3]~feeder                                             ; |FFT_module|RAd[3]~feeder                                           ; combout          ;
+; |FFT_module|RBd[3]~feeder                                             ; |FFT_module|RBd[3]~feeder                                           ; combout          ;
+; |FFT_module|RBd[4]~feeder                                             ; |FFT_module|RBd[4]~feeder                                           ; combout          ;
+; |FFT_module|RAd[5]~feeder                                             ; |FFT_module|RAd[5]~feeder                                           ; combout          ;
+; |FFT_module|RBd[6]~feeder                                             ; |FFT_module|RBd[6]~feeder                                           ; combout          ;
+; |FFT_module|RAd[7]~feeder                                             ; |FFT_module|RAd[7]~feeder                                           ; combout          ;
+; |FFT_module|RAd[8]~feeder                                             ; |FFT_module|RAd[8]~feeder                                           ; combout          ;
+; |FFT_module|RBd[8]~feeder                                             ; |FFT_module|RBd[8]~feeder                                           ; combout          ;
+; |FFT_module|RBd[9]~feeder                                             ; |FFT_module|RBd[9]~feeder                                           ; combout          ;
+; |FFT_module|RAd[10]~feeder                                            ; |FFT_module|RAd[10]~feeder                                          ; combout          ;
+; |FFT_module|RBd[10]~feeder                                            ; |FFT_module|RBd[10]~feeder                                          ; combout          ;
+; |FFT_module|RBd[11]~feeder                                            ; |FFT_module|RBd[11]~feeder                                          ; combout          ;
+; |FFT_module|RAd[12]~feeder                                            ; |FFT_module|RAd[12]~feeder                                          ; combout          ;
+; |FFT_module|RAd[13]~feeder                                            ; |FFT_module|RAd[13]~feeder                                          ; combout          ;
+; |FFT_module|RBd[13]~feeder                                            ; |FFT_module|RBd[13]~feeder                                          ; combout          ;
+; |FFT_module|RAd[14]~feeder                                            ; |FFT_module|RAd[14]~feeder                                          ; combout          ;
+; |FFT_module|RBd[14]~feeder                                            ; |FFT_module|RBd[14]~feeder                                          ; combout          ;
+; |FFT_module|RAd[15]~feeder                                            ; |FFT_module|RAd[15]~feeder                                          ; combout          ;
+; |FFT_module|RBd[16]~feeder                                            ; |FFT_module|RBd[16]~feeder                                          ; combout          ;
+; |FFT_module|RA_d[1]~feeder                                            ; |FFT_module|RA_d[1]~feeder                                          ; combout          ;
+; |FFT_module|LA_d[1]~feeder                                            ; |FFT_module|LA_d[1]~feeder                                          ; combout          ;
+; |FFT_module|RA_d[2]~feeder                                            ; |FFT_module|RA_d[2]~feeder                                          ; combout          ;
+; |FFT_module|LA_d[2]~feeder                                            ; |FFT_module|LA_d[2]~feeder                                          ; combout          ;
+; |FFT_module|RA_d[3]~feeder                                            ; |FFT_module|RA_d[3]~feeder                                          ; combout          ;
+; |FFT_module|LA_d[3]~feeder                                            ; |FFT_module|LA_d[3]~feeder                                          ; combout          ;
+; |FFT_module|RA_d[4]~feeder                                            ; |FFT_module|RA_d[4]~feeder                                          ; combout          ;
+; |FFT_module|LA_d[4]~feeder                                            ; |FFT_module|LA_d[4]~feeder                                          ; combout          ;
+; |FFT_module|RA_d[5]~feeder                                            ; |FFT_module|RA_d[5]~feeder                                          ; combout          ;
+; |FFT_module|LA_d[5]~feeder                                            ; |FFT_module|LA_d[5]~feeder                                          ; combout          ;
+; |FFT_module|RA_d[7]~feeder                                            ; |FFT_module|RA_d[7]~feeder                                          ; combout          ;
+; |FFT_module|LA_d[7]~feeder                                            ; |FFT_module|LA_d[7]~feeder                                          ; combout          ;
+; |FFT_module|RA_d[8]~feeder                                            ; |FFT_module|RA_d[8]~feeder                                          ; combout          ;
+; |FFT_module|LA_d[8]~feeder                                            ; |FFT_module|LA_d[8]~feeder                                          ; combout          ;
+; |FFT_module|RA_d[9]~feeder                                            ; |FFT_module|RA_d[9]~feeder                                          ; combout          ;
+; |FFT_module|LA_d[9]~feeder                                            ; |FFT_module|LA_d[9]~feeder                                          ; combout          ;
+; |FFT_module|RA_d[10]~feeder                                           ; |FFT_module|RA_d[10]~feeder                                         ; combout          ;
+; |FFT_module|LA_d[10]~feeder                                           ; |FFT_module|LA_d[10]~feeder                                         ; combout          ;
+; |FFT_module|RA_d[12]~feeder                                           ; |FFT_module|RA_d[12]~feeder                                         ; combout          ;
+; |FFT_module|LA_d[12]~feeder                                           ; |FFT_module|LA_d[12]~feeder                                         ; combout          ;
+; |FFT_module|RA_d[13]~feeder                                           ; |FFT_module|RA_d[13]~feeder                                         ; combout          ;
+; |FFT_module|LA_d[13]~feeder                                           ; |FFT_module|LA_d[13]~feeder                                         ; combout          ;
+; |FFT_module|RA_d[14]~feeder                                           ; |FFT_module|RA_d[14]~feeder                                         ; combout          ;
+; |FFT_module|LA_d[14]~feeder                                           ; |FFT_module|LA_d[14]~feeder                                         ; combout          ;
+; |FFT_module|RA_d[17]~feeder                                           ; |FFT_module|RA_d[17]~feeder                                         ; combout          ;
+; |FFT_module|LA_d[17]~feeder                                           ; |FFT_module|LA_d[17]~feeder                                         ; combout          ;
+; |FFT_module|xbQ[1]~feeder                                             ; |FFT_module|xbQ[1]~feeder                                           ; combout          ;
+; |FFT_module|xaQ[2]~feeder                                             ; |FFT_module|xaQ[2]~feeder                                           ; combout          ;
+; |FFT_module|xbQ[2]~feeder                                             ; |FFT_module|xbQ[2]~feeder                                           ; combout          ;
+; |FFT_module|xaQ[4]~feeder                                             ; |FFT_module|xaQ[4]~feeder                                           ; combout          ;
+; |FFT_module|xbQ[4]~feeder                                             ; |FFT_module|xbQ[4]~feeder                                           ; combout          ;
+; |FFT_module|xaQ[5]~feeder                                             ; |FFT_module|xaQ[5]~feeder                                           ; combout          ;
+; |FFT_module|xbQ[5]~feeder                                             ; |FFT_module|xbQ[5]~feeder                                           ; combout          ;
+; |FFT_module|xaQ[6]~feeder                                             ; |FFT_module|xaQ[6]~feeder                                           ; combout          ;
+; |FFT_module|xbQ[6]~feeder                                             ; |FFT_module|xbQ[6]~feeder                                           ; combout          ;
+; |FFT_module|xaQ[7]~feeder                                             ; |FFT_module|xaQ[7]~feeder                                           ; combout          ;
+; |FFT_module|xbQ[7]~feeder                                             ; |FFT_module|xbQ[7]~feeder                                           ; combout          ;
+; |FFT_module|xbQ[8]~feeder                                             ; |FFT_module|xbQ[8]~feeder                                           ; combout          ;
+; |FFT_module|xbI[1]~feeder                                             ; |FFT_module|xbI[1]~feeder                                           ; combout          ;
+; |FFT_module|xaI[0]~feeder                                             ; |FFT_module|xaI[0]~feeder                                           ; combout          ;
+; |FFT_module|xaI[2]~feeder                                             ; |FFT_module|xaI[2]~feeder                                           ; combout          ;
+; |FFT_module|xbI[4]~feeder                                             ; |FFT_module|xbI[4]~feeder                                           ; combout          ;
+; |FFT_module|xaI[5]~feeder                                             ; |FFT_module|xaI[5]~feeder                                           ; combout          ;
+; |FFT_module|xbI[5]~feeder                                             ; |FFT_module|xbI[5]~feeder                                           ; combout          ;
+; |FFT_module|xaI[6]~feeder                                             ; |FFT_module|xaI[6]~feeder                                           ; combout          ;
+; |FFT_module|xbI[6]~feeder                                             ; |FFT_module|xbI[6]~feeder                                           ; combout          ;
+; |FFT_module|xaI[7]~feeder                                             ; |FFT_module|xaI[7]~feeder                                           ; combout          ;
+; |FFT_module|xbI[7]~feeder                                             ; |FFT_module|xbI[7]~feeder                                           ; combout          ;
+; |FFT_module|xaI[8]~feeder                                             ; |FFT_module|xaI[8]~feeder                                           ; combout          ;
+; |FFT_module|Waddr[0]~feeder                                           ; |FFT_module|Waddr[0]~feeder                                         ; combout          ;
+; |FFT_module|Waddr[1]~feeder                                           ; |FFT_module|Waddr[1]~feeder                                         ; combout          ;
+; |FFT_module|Waddr[2]~feeder                                           ; |FFT_module|Waddr[2]~feeder                                         ; combout          ;
+; |FFT_module|LBa[1]~feeder                                             ; |FFT_module|LBa[1]~feeder                                           ; combout          ;
+; |FFT_module|Waddr_b[0]~feeder                                         ; |FFT_module|Waddr_b[0]~feeder                                       ; combout          ;
+; |FFT_module|Waddr_b[1]~feeder                                         ; |FFT_module|Waddr_b[1]~feeder                                       ; combout          ;
+; |FFT_module|Waddr_b[2]~feeder                                         ; |FFT_module|Waddr_b[2]~feeder                                       ; combout          ;
+; |FFT_module|Waddr_b[3]~feeder                                         ; |FFT_module|Waddr_b[3]~feeder                                       ; combout          ;
+; |FFT_module|LBd[3]~feeder                                             ; |FFT_module|LBd[3]~feeder                                           ; combout          ;
+; |FFT_module|LBd[4]~feeder                                             ; |FFT_module|LBd[4]~feeder                                           ; combout          ;
+; |FFT_module|LBd[5]~feeder                                             ; |FFT_module|LBd[5]~feeder                                           ; combout          ;
+; |FFT_module|LBd[6]~feeder                                             ; |FFT_module|LBd[6]~feeder                                           ; combout          ;
+; |FFT_module|LBd[8]~feeder                                             ; |FFT_module|LBd[8]~feeder                                           ; combout          ;
+; |FFT_module|LBd[10]~feeder                                            ; |FFT_module|LBd[10]~feeder                                          ; combout          ;
+; |FFT_module|LBd[9]~feeder                                             ; |FFT_module|LBd[9]~feeder                                           ; combout          ;
+; |FFT_module|LBd[11]~feeder                                            ; |FFT_module|LBd[11]~feeder                                          ; combout          ;
+; |FFT_module|LBd[12]~feeder                                            ; |FFT_module|LBd[12]~feeder                                          ; combout          ;
+; |FFT_module|LBd[13]~feeder                                            ; |FFT_module|LBd[13]~feeder                                          ; combout          ;
+; |FFT_module|LBd[14]~feeder                                            ; |FFT_module|LBd[14]~feeder                                          ; combout          ;
+; |FFT_module|LBd[15]~feeder                                            ; |FFT_module|LBd[15]~feeder                                          ; combout          ;
+; |FFT_module|LBd[16]~feeder                                            ; |FFT_module|LBd[16]~feeder                                          ; combout          ;
+; |FFT_module|LBd[17]~feeder                                            ; |FFT_module|LBd[17]~feeder                                          ; combout          ;
+; |FFT_module|unload_enable1~feeder                                     ; |FFT_module|unload_enable1~feeder                                   ; combout          ;
++-----------------------------------------------------------------------+---------------------------------------------------------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 1 during simulation.
++------------------------------------------------------------------------------+
+; Missing 1-Value Coverage                                                     ;
++-----------------------------+-----------------------------+------------------+
+; Node Name                   ; Output Port Name            ; Output Port Type ;
++-----------------------------+-----------------------------+------------------+
+; |FFT_module|~GND            ; |FFT_module|~GND            ; combout          ;
+; |FFT_module|indata[0]~input ; |FFT_module|indata[0]~input ; o                ;
+; |FFT_module|indata[0]       ; |FFT_module|indata[0]       ; padout           ;
+; |FFT_module|indata[9]~input ; |FFT_module|indata[9]~input ; o                ;
+; |FFT_module|indata[9]       ; |FFT_module|indata[9]       ; padout           ;
++-----------------------------+-----------------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 0 during simulation.
++------------------------------------------------------------------------------------+
+; Missing 0-Value Coverage                                                           ;
++--------------------------------+--------------------------------+------------------+
+; Node Name                      ; Output Port Name               ; Output Port Type ;
++--------------------------------+--------------------------------+------------------+
+; |FFT_module|outdata[15]~reg0   ; |FFT_module|outdata[15]~reg0   ; q                ;
+; |FFT_module|outdata[16]~reg0   ; |FFT_module|outdata[16]~reg0   ; q                ;
+; |FFT_module|outdata[17]~reg0   ; |FFT_module|outdata[17]~reg0   ; q                ;
+; |FFT_module|pass[2]            ; |FFT_module|pass[2]            ; q                ;
+; |FFT_module|wmax[3]            ; |FFT_module|wmax[3]            ; q                ;
+; |FFT_module|wmax[1]            ; |FFT_module|wmax[1]            ; q                ;
+; |FFT_module|wmax[2]            ; |FFT_module|wmax[2]            ; q                ;
+; |FFT_module|wmax[0]            ; |FFT_module|wmax[0]            ; q                ;
+; |FFT_module|Mux2~0             ; |FFT_module|Mux2~0             ; combout          ;
+; |FFT_module|Mux1~0             ; |FFT_module|Mux1~0             ; combout          ;
+; |FFT_module|Mux3~0             ; |FFT_module|Mux3~0             ; combout          ;
+; |FFT_module|~GND               ; |FFT_module|~GND               ; combout          ;
+; |FFT_module|outdata[15]~output ; |FFT_module|outdata[15]~output ; o                ;
+; |FFT_module|outdata[15]        ; |FFT_module|outdata[15]        ; padout           ;
+; |FFT_module|outdata[16]~output ; |FFT_module|outdata[16]~output ; o                ;
+; |FFT_module|outdata[16]        ; |FFT_module|outdata[16]        ; padout           ;
+; |FFT_module|outdata[17]~output ; |FFT_module|outdata[17]~output ; o                ;
+; |FFT_module|outdata[17]        ; |FFT_module|outdata[17]        ; padout           ;
++--------------------------------+--------------------------------+------------------+
+
+
++---------------------+
+; Simulator INI Usage ;
++--------+------------+
+; Option ; Usage      ;
++--------+------------+
+
+
++--------------------+
+; Simulator Messages ;
++--------------------+
+Info: *******************************************************************
+Info: Running Quartus II Simulator
+    Info: Version 9.0 Build 132 02/25/2009 SJ Web Edition
+    Info: Processing started: Tue Jan 28 10:58:17 2025
+Info: Command: quartus_sim --read_settings_files=on --write_settings_files=off FFT_module -c FFT_module
+Info: Using vector source file "D:/0 WORK/Quartus 9.0 Project/FFT_module/FFT_module.vwf"
+Info: Option to preserve fewer signal transitions to reduce memory requirements is enabled
+    Info: Simulation has been partitioned into sub-simulations according to the maximum transition count determined by the engine. Transitions from memory will be flushed out to disk at the end of each sub-simulation to reduce memory requirements.
+Info: Simulation partitioned into 1 sub-simulations
+Info: Simulation coverage is      97.89 %
+Info: Number of transitions in simulation is 47722
+Info: Quartus II Simulator was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 182 megabytes
+    Info: Processing ended: Tue Jan 28 10:58:20 2025
+    Info: Elapsed time: 00:00:03
+    Info: Total CPU time (on all processors): 00:00:03
+
+
